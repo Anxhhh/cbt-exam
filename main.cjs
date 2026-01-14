@@ -9,7 +9,7 @@ function createWindow() {
     icon: path.join(__dirname, "src/assets/icons/app-icon.png")
   });
 
-  win.loadURL("http://localhost:5173");
+  win.loadURL("http://127.0.0.1:5173");
 }
 
 app.whenReady().then(createWindow);

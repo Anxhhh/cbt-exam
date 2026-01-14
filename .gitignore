@@ -29,3 +29,5 @@ release
 .env
 .DS_Store
 
+
+out/
