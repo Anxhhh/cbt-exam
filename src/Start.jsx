@@ -7,14 +7,14 @@ export default function Start({ onStart }) {
         justifyContent: "center",
         alignItems: "center",
         background:
-          "linear-gradient(135deg, #1d4ed8 0%, #2563eb 40%, #3b82f6 100%)",
-        padding: 20
+          "linear-gradient(135deg, #1e3a8a 0%, #2563eb 50%, #3b82f6 100%)",
+        padding: 16
       }}
     >
       <div
         style={{
           width: "100%",
-          maxWidth: 720,
+          maxWidth: 760,
           background: "#ffffff",
           borderRadius: 16,
           padding: "40px 48px",
@@ -22,23 +22,23 @@ export default function Start({ onStart }) {
         }}
       >
         <h1 style={{ margin: 0, fontSize: 32, color: "#1e3a8a" }}>
-          Himachal Pradesh GK Mock Test Paper Set-1
+          StatePrep CBT – Himachal Pradesh
         </h1>
 
         <p style={{ color: "#475569", marginTop: 8 }}>
-          HP GK – Computer Based Test
+          HP GK Computer Based Test (Mock)
         </p>
 
         <hr style={{ margin: "24px 0" }} />
 
         <h3>Exam Instructions</h3>
-        <ul style={{ lineHeight: 1.8, color: "#334155" }}>
-          <li>Total Questions: <strong>100</strong></li>
+        <ul style={{ lineHeight: 1.9, color: "#334155", paddingLeft: 18 }}>
+          <li>Total Questions: <strong>120</strong></li>
           <li>Duration: <strong>90 minutes</strong></li>
           <li>Each question carries <strong>1 mark</strong></li>
-          <li>No negative marking (as configured)</li>
-          <li>Use the question palette for navigation</li>
-          <li>Do not refresh or close the exam window</li>
+          <li>No negative marking</li>
+          <li>Questions are randomly shuffled</li>
+          <li>Do not refresh or close the window</li>
         </ul>
 
         <div
@@ -46,11 +46,13 @@ export default function Start({ onStart }) {
             display: "flex",
             justifyContent: "space-between",
             alignItems: "center",
-            marginTop: 36
+            marginTop: 36,
+            flexWrap: "wrap",
+            gap: 12
           }}
         >
           <span style={{ color: "#64748b", fontSize: 14 }}>
-            Best of luck for your exam.
+            Best of luck for your examination.
           </span>
 
           <button
@@ -58,7 +60,7 @@ export default function Start({ onStart }) {
             style={{
               background: "#1d4ed8",
               color: "#ffffff",
-              padding: "12px 28px",
+              padding: "12px 32px",
               fontSize: 16,
               borderRadius: 8,
               border: "none",

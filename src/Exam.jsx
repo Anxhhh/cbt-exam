@@ -12,14 +12,12 @@ export default function Exam({
   const [index, setIndex] = useState(0);
   const [time, setTime] = useState(data.duration * 60);
 
-  /* ================= EXTRA STATES ================= */
   const [visited, setVisited] = useState({});
   const [reviewMode, setReviewMode] = useState(false);
   const [paletteOpen, setPaletteOpen] = useState(
     window.innerWidth >= 1024
   );
 
-  /* ================= CANDIDATE ================= */
   const candidate = {
     name: "Demo Candidate",
     rollNo: "HPGK-2026-001",
@@ -85,57 +83,55 @@ export default function Exam({
   return (
     <div className="app">
       {/* ================= PALETTE ================= */}
-{paletteOpen && window.innerWidth < 1024 && (
-  <div
-    className="palette-backdrop"
-    onClick={() => setPaletteOpen(false)}
-  />
-)}
+      {paletteOpen && window.innerWidth < 1024 && (
+        <div
+          className="palette-backdrop"
+          onClick={() => setPaletteOpen(false)}
+        />
+      )}
 
-<aside
-  className={`palette ${paletteOpen ? "open" : "collapsed"} ${
-    window.innerWidth < 1024 ? "overlay" : ""
-  }`}
->
-  {/* CLOSE BUTTON (MOBILE ONLY) */}
-  {window.innerWidth < 1024 && (
-    <button
-      className="palette-close"
-      onClick={() => setPaletteOpen(false)}
-    >
-      ✕
-    </button>
-  )}
-
-  <h4>Question Palette</h4>
-  <div className="palette-grid">
-    {data.questions.map((ques, i) => (
-      <button
-        key={ques.id}
-        onClick={() => {
-          setIndex(i);
-          if (window.innerWidth < 1024) setPaletteOpen(false);
-        }}
-        style={{
-          background:
-            index === i
-              ? "var(--current)"
-              : marked[ques.id]
-              ? "var(--review)"
-              : answers[ques.id] !== undefined
-              ? "var(--answered)"
-              : "var(--unanswered)"
-        }}
+      <aside
+        className={`palette ${paletteOpen ? "open" : "collapsed"} ${
+          window.innerWidth < 1024 ? "overlay" : ""
+        }`}
       >
-        {i + 1}
-      </button>
-    ))}
-  </div>
-</aside>
+        {window.innerWidth < 1024 && (
+          <button
+            className="palette-close"
+            onClick={() => setPaletteOpen(false)}
+          >
+            ✕
+          </button>
+        )}
+
+        <h4>Question Palette</h4>
+        <div className="palette-grid">
+          {data.questions.map((ques, i) => (
+            <button
+              key={ques.id}
+              onClick={() => {
+                setIndex(i);
+                if (window.innerWidth < 1024) setPaletteOpen(false);
+              }}
+              style={{
+                background:
+                  index === i
+                    ? "var(--current)"
+                    : marked[ques.id]
+                    ? "var(--review)"
+                    : answers[ques.id] !== undefined
+                    ? "var(--answered)"
+                    : "var(--unanswered)"
+              }}
+            >
+              {i + 1}
+            </button>
+          ))}
+        </div>
+      </aside>
 
       {/* ================= MAIN EXAM ================= */}
       <main className="exam">
-        {/* TOGGLE (SMALL SCREENS) */}
         <button
           className="palette-toggle"
           onClick={() => setPaletteOpen(!paletteOpen)}
@@ -143,7 +139,6 @@ export default function Exam({
           {paletteOpen ? "Hide Palette" : "Show Palette"}
         </button>
 
-        {/* PROFILE BAR */}
         <div className="profile-bar">
           <div className="profile-left">
             <img
@@ -161,7 +156,6 @@ export default function Exam({
           </div>
         </div>
 
-        {/* TIMER BAR */}
         <div className="topbar">
           <strong>Exam in Progress</strong>
           <span>
@@ -170,7 +164,6 @@ export default function Exam({
           </span>
         </div>
 
-        {/* QUESTION CARD */}
         <div className="card">
           <p><b>Section:</b> {q.section || "General"}</p>
 
@@ -182,14 +175,16 @@ export default function Exam({
                 type="radio"
                 checked={answers[q.id] === opt.originalIndex}
                 onChange={() =>
-                  setAnswers({ ...answers, [q.id]: opt.originalIndex })
+                  setAnswers(prev => ({
+                    ...prev,
+                    [q.id]: opt.originalIndex
+                  }))
                 }
               />
               {opt.text}
             </label>
           ))}
 
-          {/* CONTROLS */}
           <div className="controls">
             <button className="review" onClick={toggleReview}>
               {marked[q.id] ? "Unmark Review" : "Mark for Review"}

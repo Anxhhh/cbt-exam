@@ -3,6 +3,10 @@ import Start from "./Start";
 import Exam from "./Exam";
 import Result from "./Result";
 
+function shuffleArray(arr) {
+  return [...arr].sort(() => Math.random() - 0.5);
+}
+
 export default function App() {
   const [exam, setExam] = useState(null);
   const [started, setStarted] = useState(false);
@@ -10,25 +14,26 @@ export default function App() {
 
   const [answers, setAnswers] = useState({});
   const [marked, setMarked] = useState({});
+  
 
   /* ================= LOAD EXAM JSON ================= */
   useEffect(() => {
-    fetch(import.meta.env.BASE_URL + "exam.json")
-      .then(res => {
-        if (!res.ok) {
-          throw new Error("Failed to load exam.json");
-        }
-        return res.json();
-      })
-      .then(data => {
-        setExam(data);
-      })
-      .catch(err => {
-        console.error("EXAM LOAD ERROR:", err);
-        // Fail-safe so app never gets stuck on loading
-        setExam({ questions: [] });
+  fetch(import.meta.env.BASE_URL + "exam.json")
+    .then(res => {
+      if (!res.ok) throw new Error("Failed to load exam.json");
+      return res.json();
+    })
+    .then(data => {
+      setExam({
+        ...data,
+        questions: shuffleArray(data.questions) // ✅ SHUFFLE ONCE
       });
-  }, []);
+    })
+    .catch(err => {
+      console.error("EXAM LOAD ERROR:", err);
+      setExam({ questions: [] });
+    });
+}, []);
 
   /* ================= LOADING STATE ================= */
   if (!exam || !exam.questions) {
