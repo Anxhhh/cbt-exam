@@ -1,0 +1,154 @@
+{
+  "examName": "HP GK – Full Length Test",
+  "duration": 90,
+  "marksPerQuestion": 1,
+  "negativeMarking": 0,
+  "questions": [
+    {
+      "id": 1,
+      "section": "HP GK",
+      "question": "Himachal Pradesh attained full statehood in which year?",
+      "options": ["1948", "1966", "1971", "1987"],
+      "correct": 2
+    },
+    {
+      "id": 2,
+      "section": "HP GK",
+      "question": "Which district of Himachal Pradesh has the lowest population density (Census 2011)?",
+      "options": ["Kinnaur", "Lahaul & Spiti", "Chamba", "Kullu"],
+      "correct": 1
+    },
+    {
+      "id": 3,
+      "section": "HP GK",
+      "question": "Which river is the longest flowing through Himachal Pradesh?",
+      "options": ["Beas", "Ravi", "Chenab", "Sutlej"],
+      "correct": 3
+    },
+    {
+      "id": 4,
+      "section": "HP History",
+      "question": "Who was the founder of the princely state of Kangra?",
+      "options": ["Sansar Chand", "Susharma Chandra", "Jai Chand", "Padam Chand"],
+      "correct": 1
+    },
+    {
+      "id": 5,
+      "section": "HP History",
+      "question": "Which ruler is associated with the construction of Kangra Fort?",
+      "options": ["Harsha", "Susharma Chandra", "Sansar Chand", "Akbar"],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "section": "HP Culture",
+      "question": "The Minjar Fair is associated with which district?",
+      "options": ["Kangra", "Chamba", "Mandi", "Hamirpur"],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "section": "HP Culture",
+      "question": "Which dance form of Himachal Pradesh is recognized by UNESCO?",
+      "options": ["Chham", "Nati", "Kayang", "Dandaras"],
+      "correct": 1
+    },
+    {
+      "id": 8,
+      "section": "HP Geography",
+      "question": "Which pass connects Kullu valley with Lahaul valley?",
+      "options": ["Kunzum Pass", "Rohtang Pass", "Shipki La", "Baralacha La"],
+      "correct": 1
+    },
+    {
+      "id": 9,
+      "section": "HP Geography",
+      "question": "Which national park lies in the cold desert region of Himachal Pradesh?",
+      "options": [
+        "Great Himalayan National Park",
+        "Pin Valley National Park",
+        "Kalatop Sanctuary",
+        "Pong Dam Sanctuary"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 10,
+      "section": "HP Polity",
+      "question": "Which article of the Constitution provides special provisions for Himachal Pradesh?",
+      "options": ["Article 370", "Article 371", "Article 371A", "Article 371C"],
+      "correct": 1
+    },
+{
+  "id": 11,
+  "section": "HP GK",
+  "question": "Which is the highest peak of Himachal Pradesh?",
+  "options": ["Reo Purgyil", "Hanuman Tibba", "Shilla Peak", "Leo Pargial"],
+  "correct": 0
+},
+{
+  "id": 12,
+  "section": "HP GK",
+  "question": "Which district has the highest literacy rate in Himachal Pradesh (Census 2011)?",
+  "options": ["Hamirpur", "Una", "Kangra", "Bilaspur"],
+  "correct": 0
+},
+{
+  "id": 13,
+  "section": "HP History",
+  "question": "Who was the last ruler of the princely state of Mandi?",
+  "options": ["Joginder Sen", "Suraj Sen", "Isvari Sen", "Bhupendra Sen"],
+  "correct": 0
+},
+{
+  "id": 14,
+  "section": "HP History",
+  "question": "Which ruler of Kangra fought against the Mughals during Akbar’s reign?",
+  "options": ["Sansar Chand", "Susharma Chandra", "Jai Chand", "Padam Chand"],
+  "correct": 0
+},
+{
+  "id": 15,
+  "section": "HP Culture",
+  "question": "The ‘Lavi Fair’ is held in which district?",
+  "options": ["Kullu", "Shimla", "Kinnaur", "Chamba"],
+  "correct": 2
+},
+{
+  "id": 16,
+  "section": "HP Culture",
+  "question": "Which language is given the status of second official language in Himachal Pradesh?",
+  "options": ["Punjabi", "Sanskrit", "English", "Pahari"],
+  "correct": 1
+},
+{
+  "id": 17,
+  "section": "HP Geography",
+  "question": "Which river flows through the Pangi Valley?",
+  "options": ["Chenab", "Ravi", "Beas", "Sutlej"],
+  "correct": 0
+},
+{
+  "id": 18,
+  "section": "HP Geography",
+  "question": "Which pass connects Spiti Valley with Lahaul Valley?",
+  "options": ["Rohtang", "Kunzum", "Shipki La", "Baralacha La"],
+  "correct": 1
+},
+{
+  "id": 19,
+  "section": "HP Polity",
+  "question": "How many members are there in the Himachal Pradesh Legislative Assembly?",
+  "options": ["60", "65", "68", "70"],
+  "correct": 2
+},
+{
+  "id": 20,
+  "section": "HP Polity",
+  "question": "Who appoints the Advocate General of Himachal Pradesh?",
+  "options": ["Chief Minister", "Governor", "High Court", "President"],
+  "correct": 1
+}
+
+  ]
+}
