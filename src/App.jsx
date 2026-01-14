@@ -10,6 +10,8 @@ export default function App() {
   const [marked, setMarked] = useState({});
 
   useEffect(() => {
+  let mounted = true;
+
   fetch(import.meta.env.BASE_URL + "exam.json")
     .then(res => {
       if (!res.ok) {
@@ -17,11 +19,19 @@ export default function App() {
       }
       return res.json();
     })
-    .then(data => setExam(data))
+    .then(data => {
+      if (mounted) setExam(data);
+    })
     .catch(err => {
-      console.error(err);
+      console.error("EXAM LOAD ERROR:", err);
+      if (mounted) setExam({ questions: [] }); // fail-safe
     });
+
+  return () => {
+    mounted = false;
+  };
 }, []);
+
 
 
   if (!data) {
