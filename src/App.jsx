@@ -54,19 +54,34 @@ export default function App() {
 
   /* ================= RESULT SCREEN ================= */
   if (submitted) {
+  if (!exam || !Array.isArray(exam.questions)) {
     return (
-      <Result
-        exam={exam}
-        answers={answers}
-        onRetake={() => {
-          setAnswers({});
-          setMarked({});
-          setSubmitted(false);
-          setStarted(false);
+      <div
+        style={{
+          height: "100vh",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center"
         }}
-      />
+      >
+        Loading result...
+      </div>
     );
   }
+
+  return (
+    <Result
+      exam={exam}
+      answers={answers}
+      onRetake={() => {
+        setAnswers({});
+        setMarked({});
+        setSubmitted(false);
+        setStarted(false);
+      }}
+    />
+  );
+}
 
   /* ================= EXAM SCREEN ================= */
   return (

@@ -1,9 +1,9 @@
 export default function Result({ exam, answers, onRetake }) {
-  // HARD SAFETY CHECK
-  if (!exam || !Array.isArray(exam.questions)) {
+  // ABSOLUTE SAFETY GUARD
+  if (!exam || !exam.questions || !Array.isArray(exam.questions)) {
     return (
       <div style={{ padding: 24 }}>
-        <h2>Result not available</h2>
+        <h2>Result unavailable</h2>
         <button onClick={onRetake}>Back</button>
       </div>
     );
@@ -14,14 +14,14 @@ export default function Result({ exam, answers, onRetake }) {
   let attempted = 0;
   let correct = 0;
 
-  exam.questions.forEach(q => {
+  for (const q of exam.questions) {
     if (answers && answers[q.id] !== undefined) {
       attempted++;
       if (answers[q.id] === q.answer) {
         correct++;
       }
     }
-  });
+  }
 
   const wrong = attempted - correct;
 
@@ -29,30 +29,30 @@ export default function Result({ exam, answers, onRetake }) {
     <div
       style={{
         minHeight: "100vh",
+        background: "#f8fafc",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        background: "#f8fafc",
         padding: 24
       }}
     >
       <div
         style={{
-          width: "100%",
-          maxWidth: 480,
           background: "#ffffff",
-          borderRadius: 12,
           padding: 32,
+          borderRadius: 12,
+          width: "100%",
+          maxWidth: 420,
           boxShadow: "0 10px 30px rgba(0,0,0,0.15)",
           textAlign: "center"
         }}
       >
-        <h1 style={{ marginBottom: 16 }}>Exam Result</h1>
+        <h1>Exam Result</h1>
 
-        <p>Total Questions: <strong>{total}</strong></p>
-        <p>Attempted: <strong>{attempted}</strong></p>
-        <p>Correct: <strong>{correct}</strong></p>
-        <p>Wrong: <strong>{wrong}</strong></p>
+        <p>Total Questions: <b>{total}</b></p>
+        <p>Attempted: <b>{attempted}</b></p>
+        <p>Correct: <b>{correct}</b></p>
+        <p>Wrong: <b>{wrong}</b></p>
 
         <h2 style={{ marginTop: 16 }}>
           Score: {correct} / {total}
@@ -63,13 +63,13 @@ export default function Result({ exam, answers, onRetake }) {
           style={{
             marginTop: 24,
             padding: "12px 24px",
-            fontSize: 16,
             borderRadius: 8,
             border: "none",
             background: "#1d4ed8",
             color: "#ffffff",
-            cursor: "pointer",
-            fontWeight: 600
+            fontSize: 16,
+            fontWeight: 600,
+            cursor: "pointer"
           }}
         >
           Retake Exam
