@@ -1,4 +1,4 @@
-import exam from "../public/exam.json" assert { type: "json" };
+const exam = require("../public/exam.json");
 
 const ids = new Set();
 

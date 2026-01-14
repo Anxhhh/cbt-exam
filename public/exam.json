@@ -1,868 +1,1445 @@
 {
-  "examName": "HP GK – Full Length Test",
   "duration": 90,
-  "marksPerQuestion": 1,
-  "negativeMarking": 0,
   "questions": [
     {
       "id": "Q001",
-      "question": "Himachal Pradesh was formed as a full-fledged state in which year?",
-      "options": ["1966", "1970", "1971", "1972"],
+      "question": "Which district accounts for 25% of the total area of Himachal Pradesh?",
+      "options": [
+        "Chamba",
+        "Lahaul and Spiti",
+        "Kinnaur",
+        "Kangra"
+      ],
+      "answer": 1,
+      "section": "Geography"
+    },
+    {
+      "id": "Q002",
+      "question": "What is the population density of Lahaul and Spiti per square kilometer?",
+      "options": [
+        "2",
+        "5",
+        "10",
+        "15"
+      ],
+      "answer": 0,
+      "section": "Geography"
+    },
+    {
+      "id": "Q003",
+      "question": "Who is the author of the book \"Lahaul a valley of Glacier\"?",
+      "options": [
+        "Moorcroft",
+        "Cunningham",
+        "Andrew Wilson",
+        "Rahul Sanskrityayan"
+      ],
       "answer": 2,
       "section": "History"
     },
     {
-      "id": "Q002",
-      "question": "Which district of Himachal Pradesh has the highest literacy rate?",
-      "options": ["Hamirpur", "Kangra", "Shimla", "Una"],
-      "answer": 0,
-      "section": "Demography"
-    },
-    {
-      "id": "Q003",
-      "question": "Which river is known as the lifeline of Himachal Pradesh?",
-      "options": ["Ravi", "Beas", "Sutlej", "Chenab"],
-      "answer": 1,
-      "section": "Geography"
-    },
-    {
       "id": "Q004",
-      "question": "The Great Himalayan National Park is located in which district?",
-      "options": ["Chamba", "Kullu", "Lahaul-Spiti", "Kinnaur"],
-      "answer": 1,
-      "section": "Environment"
+      "question": "According to local history, who is considered the founder of the area?",
+      "options": [
+        "Manu",
+        "Harshvardhan",
+        "Samudra Sen",
+        "Hiun Tsang"
+      ],
+      "answer": 0,
+      "section": "History"
     },
     {
       "id": "Q005",
-      "question": "Which pass connects Kullu valley with Lahaul valley?",
-      "options": ["Rohtang Pass", "Kunzum Pass", "Baralacha La", "Shipki La"],
-      "answer": 0,
-      "section": "Geography"
+      "question": "In which year did the Chinese traveler Hiun Tsang visit the area?",
+      "options": [
+        "435 AD",
+        "535 AD",
+        "635 AD",
+        "735 AD"
+      ],
+      "answer": 2,
+      "section": "History"
     },
-
     {
       "id": "Q006",
-      "question": "Which soil type is predominantly found in Himachal Pradesh?",
-      "options": ["Alluvial soil", "Red soil", "Mountain soil", "Laterite soil"],
-      "answer": 2,
-      "section": "Geography"
+      "question": "The Trilokinath and Mrikula Devi temples reflect which architectural style?",
+      "options": [
+        "Pagoda style",
+        "Kashmiri style",
+        "Pyramidal style",
+        "Pent-roof style"
+      ],
+      "answer": 1,
+      "section": "Art & Culture"
     },
     {
       "id": "Q007",
-      "question": "Who was the founder of Bushahr state?",
-      "options": ["Raja Kehari Singh", "Raja Pradyuman", "Raja Ugrasen", "Raja Sansar Chand"],
-      "answer": 2,
+      "question": "According to William Moorcroft in 1820, what was the capital of Lahaul Spiti?",
+      "options": [
+        "Keylong",
+        "Kaza",
+        "Udaipur",
+        "Tandi"
+      ],
+      "answer": 3,
       "section": "History"
     },
     {
       "id": "Q008",
-      "question": "Which district of Himachal Pradesh shares border with both Punjab and Haryana?",
-      "options": ["Una", "Solan", "Bilaspur", "Sirmaur"],
+      "question": "Who built the Gondla Fort in Lahaul Spiti?",
+      "options": [
+        "Bidhi Singh",
+        "Man Singh",
+        "Bahadur Shah",
+        "Zorawar Singh"
+      ],
       "answer": 1,
-      "section": "Geography"
+      "section": "History"
     },
     {
       "id": "Q009",
-      "question": "Which language is granted second official language status in Himachal Pradesh?",
-      "options": ["Punjabi", "Sanskrit", "Pahari", "Urdu"],
+      "question": "Who was appointed by the British as the first Negi of the area in 1846?",
+      "options": [
+        "Amir Chand",
+        "Bali Ram",
+        "No-No Wazir",
+        "Samudra Sen"
+      ],
       "answer": 1,
-      "section": "Polity"
+      "section": "Administration"
     },
     {
       "id": "Q010",
-      "question": "The Lavi Fair is associated with which district?",
-      "options": ["Kullu", "Shimla", "Kinnaur", "Chamba"],
+      "question": "In which year was Lahaul and Spiti established as a district of Punjab before merging with HP?",
+      "options": [
+        "1941",
+        "1950",
+        "1960",
+        "1966"
+      ],
       "answer": 2,
-      "section": "Culture"
+      "section": "Administration"
     },
-
     {
       "id": "Q011",
-      "question": "Which wildlife sanctuary is famous for Snow Leopard conservation?",
-      "options": ["Kalatop Sanctuary", "Pin Valley National Park", "Renuka Sanctuary", "Pong Dam Sanctuary"],
+      "question": "What does the marriage term \"Ta-bhagston\" refer to in tribal society?",
+      "options": [
+        "Love marriage",
+        "Arranged marriage",
+        "Divorce",
+        "Widow remarriage"
+      ],
       "answer": 1,
-      "section": "Environment"
+      "section": "Social Customs"
     },
     {
       "id": "Q012",
-      "question": "Which district has the lowest population density in Himachal Pradesh?",
-      "options": ["Kinnaur", "Lahaul-Spiti", "Chamba", "Kullu"],
-      "answer": 1,
-      "section": "Demography"
+      "question": "Which term refers to the custom of a divorced man marrying another woman?",
+      "options": [
+        "Kummai-bhagston",
+        "Ta-bhagston",
+        "Kowanchi-biah",
+        "Halda"
+      ],
+      "answer": 2,
+      "section": "Social Customs"
     },
     {
       "id": "Q013",
-      "question": "Who is known as the 'Iron Man of Himachal Pradesh'?",
-      "options": ["Dr. Y.S. Parmar", "Pt. Padam Dev", "Shanta Kumar", "Virbhadra Singh"],
+      "question": "In which month is the Gochi Festival traditionally celebrated in Keylong?",
+      "options": [
+        "February",
+        "July",
+        "October",
+        "December"
+      ],
       "answer": 0,
-      "section": "History"
+      "section": "Festivals"
     },
     {
       "id": "Q014",
-      "question": "Which hydropower project is the largest in Himachal Pradesh?",
-      "options": ["Bhakra Nangal", "Nathpa Jhakri", "Chamera", "Kol Dam"],
-      "answer": 1,
-      "section": "Economy"
+      "question": "Which festival is celebrated as the regional equivalent of Diwali in the Chandrabhaga area?",
+      "options": [
+        "Ladarcha",
+        "Gochi",
+        "Pauri",
+        "Halda"
+      ],
+      "answer": 3,
+      "section": "Festivals"
     },
     {
       "id": "Q015",
-      "question": "Which dance form is associated with Kinnaur district?",
-      "options": ["Nati", "Chham", "Rakshasa", "Losar Shona Chuksam"],
-      "answer": 3,
-      "section": "Culture"
+      "question": "Which monastery is widely known as the \"Ajanta of the Himalayas\"?",
+      "options": [
+        "Key Monastery",
+        "Guru Ghantal",
+        "Tabo Monastery",
+        "Dhankhar Monastery"
+      ],
+      "answer": 2,
+      "section": "Religious Sites"
     },
-
     {
       "id": "Q016",
-      "question": "Which place is known as the 'Fruit Bowl of Himachal Pradesh'?",
-      "options": ["Kullu", "Solan", "Shimla", "Una"],
-      "answer": 2,
-      "section": "Economy"
+      "question": "Which is considered the oldest monastery specifically in the Lahaul area?",
+      "options": [
+        "Shashur",
+        "Guru Ghantal",
+        "Gemur",
+        "Khardang"
+      ],
+      "answer": 1,
+      "section": "Religious Sites"
     },
     {
       "id": "Q017",
-      "question": "Which dam is built on the Sutlej river?",
-      "options": ["Pong Dam", "Bhakra Dam", "Chamera Dam", "Kol Dam"],
+      "question": "Which traditional dance is also known as the \"Evil King Dance\"?",
+      "options": [
+        "Shabu Dance",
+        "Shand Dance",
+        "Lang-dar-ma Dance",
+        "Shunto Dance"
+      ],
+      "answer": 2,
+      "section": "Art & Culture"
+    },
+    {
+      "id": "Q018",
+      "question": "In which year did Lahauli Socks and Gloves earn a Geographical Indication (GI) tag?",
+      "options": [
+        "2018",
+        "2019",
+        "2020",
+        "2021"
+      ],
+      "answer": 3,
+      "section": "Economy"
+    },
+    {
+      "id": "Q019",
+      "question": "Which valley in the district is famously referred to as the \"Land of Jewels\"?",
+      "options": [
+        "Lahaul Valley",
+        "Spiti Valley",
+        "Pin Valley",
+        "Lingti Valley"
+      ],
       "answer": 1,
       "section": "Geography"
     },
     {
-      "id": "Q018",
-      "question": "Which district has the highest forest cover percentage?",
-      "options": ["Chamba", "Kullu", "Shimla", "Sirmaur"],
-      "answer": 0,
-      "section": "Environment"
-    },
-    {
-      "id": "Q019",
-      "question": "The capital of Himachal Pradesh during winter is:",
-      "options": ["Shimla", "Solan", "Dharamshala", "Una"],
-      "answer": 2,
-      "section": "Polity"
-    },
-    {
       "id": "Q020",
-      "question": "Which fair marks the beginning of Kullu Dussehra?",
-      "options": ["Phagli", "Lavi", "Hadimba Fair", "Dhalpur Fair"],
-      "answer": 3,
-      "section": "Culture"
-    },
-
-    {
-      "id": "Q021",
-      "question": "Which district is known for slate production?",
-      "options": ["Solan", "Bilaspur", "Kangra", "Una"],
+      "question": "The Moravian Mission of 1853 is credited with introducing which crop to the region?",
+      "options": [
+        "Apple",
+        "Potato",
+        "Wheat",
+        "Barley"
+      ],
       "answer": 1,
       "section": "Economy"
     },
     {
+      "id": "Q021",
+      "question": "Who is considered the ancient founder of the Trigarta kingdom?",
+      "options": [
+        "Susharma Chand",
+        "Bhoomi Chand",
+        "Ghamand Chand",
+        "Sansar Chand"
+      ],
+      "answer": 1,
+      "section": "Ancient History"
+    },
+    {
       "id": "Q022",
-      "question": "Which wildlife sanctuary is located in Sirmaur district?",
-      "options": ["Renuka Sanctuary", "Kalatop Sanctuary", "Daranghati Sanctuary", "Gobind Sagar Sanctuary"],
-      "answer": 0,
-      "section": "Environment"
+      "question": "Which ruler is credited with building the historic Kangra Fort around 1500 BC?",
+      "options": [
+        "Bhoomi Chand",
+        "Jagdish Chand",
+        "Susharma Chand",
+        "Prthvi Chand"
+      ],
+      "answer": 2,
+      "section": "Ancient History"
     },
     {
       "id": "Q023",
-      "question": "Which district was carved out of Kangra district in 1972?",
-      "options": ["Una", "Hamirpur", "Bilaspur", "Solan"],
+      "question": "During the 7th invasion of Mahmud Ghazni in 1009 AD, who was the ruler of Kangra?",
+      "options": [
+        "Jagdish Chand",
+        "Roop Chand",
+        "Megh Chand",
+        "Dharam Chand"
+      ],
+      "answer": 0,
+      "section": "Medieval History"
+    },
+    {
+      "id": "Q024",
+      "question": "Which Katoch ruler was given the title \"Nagarkotia\" by Mughal Emperor Akbar?",
+      "options": [
+        "Bidhi Chand",
+        "Jai Chand",
+        "Dharam Chand",
+        "Manak Chand"
+      ],
+      "answer": 2,
+      "section": "Medieval History"
+    },
+    {
+      "id": "Q025",
+      "question": "In which year did the Battle of Mahalmorriyan take place between Sansar Chand and the Gurkhas?",
+      "options": [
+        "1809",
+        "1805",
+        "1786",
+        "1823"
+      ],
       "answer": 1,
       "section": "History"
     },
     {
-      "id": "Q024",
-      "question": "Which peak is the highest in Himachal Pradesh?",
-      "options": ["Hanuman Tibba", "Reo Purgyil", "Shilla Peak", "Indrasan"],
+      "id": "Q026",
+      "question": "The Treaty of Jawalamukhi in 1809 was signed between Maharaja Sansar Chand and which other leader?",
+      "options": [
+        "Amar Singh Thapa",
+        "Maharaja Ranjit Singh",
+        "Jassa Singh Ramgarhiya",
+        "Jai Singh Kanhaiya"
+      ],
+      "answer": 1,
+      "section": "History"
+    },
+    {
+      "id": "Q027",
+      "question": "Who was appointed as the first Sikh Nizam (Governor) of Kangra in 1809?",
+      "options": [
+        "Desa Singh Majithiya",
+        "Nawab Ali Khan",
+        "Hussain Kuli Khan",
+        "Jassa Singh Ramgarhiya"
+      ],
+      "answer": 0,
+      "section": "History"
+    },
+    {
+      "id": "Q028",
+      "question": "Which state was founded by Hari Chand in 1405 AD?",
+      "options": [
+        "Jaswan",
+        "Guler",
+        "Siba",
+        "Datarpur"
+      ],
+      "answer": 1,
+      "section": "History"
+    },
+    {
+      "id": "Q029",
+      "question": "Who was the first ruler of Guler to adopt the title \"Singh\" and was called \"Sher Afghan\" by Shah Jahan?",
+      "options": [
+        "Govardhan Chand",
+        "Maan Chand",
+        "Roop Chand",
+        "Dalip Singh"
+      ],
+      "answer": 1,
+      "section": "History"
+    },
+    {
+      "id": "Q030",
+      "question": "Which temple in Kangra is popularly known as the \"Ellora of Himachal\"?",
+      "options": [
+        "Baijnath Temple",
+        "Masrur Rock Cut Temple",
+        "Chamunda Devi Temple",
+        "Bajreshwari Temple"
+      ],
+      "answer": 1,
+      "section": "Culture/Art"
+    },
+    {
+      "id": "Q031",
+      "question": "The Masrur Rock Cut Temple was built in the 8th Century under which King of Kashmir?",
+      "options": [
+        "Ashoka",
+        "Lalitaditya",
+        "Harsha",
+        "Kanishka"
+      ],
+      "answer": 1,
+      "section": "Culture/Art"
+    },
+    {
+      "id": "Q032",
+      "question": "Who is recognized as the first patron of the Kangra School of Painting?",
+      "options": [
+        "Sansar Chand",
+        "Govardhan Chand",
+        "Ghamand Chand",
+        "Anirudh Chand"
+      ],
+      "answer": 1,
+      "section": "Art"
+    },
+    {
+      "id": "Q033",
+      "question": "Which master artist of the Kangra Kalam is specifically noted for his realism and intimacy in portraiture?",
+      "options": [
+        "Manaku",
+        "Nainsukh",
+        "Shobha Singh",
+        "Nicholas Roerich"
+      ],
+      "answer": 1,
+      "section": "Art"
+    },
+    {
+      "id": "Q034",
+      "question": "Which author wrote the authoritative work \"The Kangra Paintings\"?",
+      "options": [
+        "M.S. Randhawa",
+        "W.G. Archer",
+        "Thomas Coryat",
+        "Moorcroft"
+      ],
+      "answer": 1,
+      "section": "Art/Literature"
+    },
+    {
+      "id": "Q035",
+      "question": "In which year did Kangra Tea receive a Geographical Indication (GI) tag from India?",
+      "options": [
+        "2005",
+        "2012",
+        "2017",
+        "2023"
+      ],
+      "answer": 0,
+      "section": "Static GK"
+    },
+    {
+      "id": "Q036",
+      "question": "On what exact date did the famous devastating earthquake of Kangra occur?",
+      "options": [
+        "15 August 1947",
+        "4 April 1905",
+        "1 November 1966",
+        "26 January 1950"
+      ],
+      "answer": 1,
+      "section": "Static GK"
+    },
+    {
+      "id": "Q037",
+      "question": "Who painted the famous modern works \"Heer-Ranjha\" and \"Kangra Bride\"?",
+      "options": [
+        "Nicholas Roerich",
+        "Shobha Singh",
+        "Nainsukh",
+        "Manaku"
+      ],
+      "answer": 1,
+      "section": "Art"
+    },
+    {
+      "id": "Q038",
+      "question": "In which year did Dharamshala officially become the winter capital of Himachal Pradesh?",
+      "options": [
+        "1990",
+        "2005",
+        "2012",
+        "2017"
+      ],
+      "answer": 3,
+      "section": "Static GK"
+    },
+    {
+      "id": "Q039",
+      "question": "Which ancient literary source refers to the Trigarta area as \"Bheemnagar\"?",
+      "options": [
+        "Tareek-ae-Yamini",
+        "Rasikapriya",
+        "Gita Govinda",
+        "Bhagavata Purana"
+      ],
+      "answer": 0,
+      "section": "History"
+    },
+    {
+      "id": "Q040",
+      "question": "Who was the first Sikh leader to invade the Kangra hills?",
+      "options": [
+        "Maharaja Ranjit Singh",
+        "Jassa Singh Ramgarhiya",
+        "Jai Singh Kanhaiya",
+        "Desa Singh Majithiya"
+      ],
+      "answer": 1,
+      "section": "History"
+    },
+    {
+      "id": "Q041",
+      "question": "On which date was Kinnaur formed as the 6th district of Himachal Pradesh?",
+      "options": [
+        "May 1, 1948",
+        "May 1, 1950",
+        "May 1, 1960",
+        "May 1, 1966"
+      ],
+      "answer": 2,
+      "section": "History/Geography"
+    },
+    {
+      "id": "Q042",
+      "question": "What name was used for the people of Kinnaur in Kalidasa’s work Kumarsambhava?",
+      "options": [
+        "Kinners",
+        "Ashwamukhi",
+        "Khasa",
+        "Kanait"
+      ],
+      "answer": 1,
+      "section": "Ancient History"
+    },
+    {
+      "id": "Q043",
+      "question": "According to the sources, what is the Tibetan name for the Kinnaur region?",
+      "options": [
+        "Mon",
+        "Chini",
+        "Khunu",
+        "Mahanand"
+      ],
+      "answer": 2,
+      "section": "Geography/Culture"
+    },
+    {
+      "id": "Q044",
+      "question": "Who is considered the mythological founder of the Busheher Riyasat?",
+      "options": [
+        "Chattar Singh",
+        "Ram Singh",
+        "Pradyumana",
+        "Padam Singh"
+      ],
+      "answer": 2,
+      "section": "History"
+    },
+    {
+      "id": "Q045",
+      "question": "Which ruler shifted the capital of Busheher from Kamru to Sarahan?",
+      "options": [
+        "Ram Singh",
+        "Chattar Singh",
+        "Pradyumana",
+        "Samsher Singh"
+      ],
+      "answer": 1,
+      "section": "History"
+    },
+    {
+      "id": "Q046",
+      "question": "Which Raja of Busheher was known by the titles \"Ajan-bahu\" and \"Chhatrapati\"?",
+      "options": [
+        "Mahendra Singh",
+        "Sher Singh",
+        "Khehri Singh",
+        "Padam Singh"
+      ],
+      "answer": 2,
+      "section": "History"
+    },
+    {
+      "id": "Q047",
+      "question": "The Hangrang Valley was gifted to Kinnaur by Tibet following which 1681 conflict?",
+      "options": [
+        "Gorkha War",
+        "World War I",
+        "Tibeti-Ladakhi-Mughal War",
+        "Indo-China War"
+      ],
+      "answer": 2,
+      "section": "History"
+    },
+    {
+      "id": "Q048",
+      "question": "What is the name for the 'forceful' form of marriage historically practiced in Kinnaur?",
+      "options": [
+        "Jane-Tang",
+        "Dam-Tang",
+        "Darosh",
+        "Jushish"
+      ],
+      "answer": 2,
+      "section": "Social Customs"
+    },
+    {
+      "id": "Q049",
+      "question": "In Kinnauri death ceremonies, what is the term used if the body is disposed of by drowning?",
+      "options": [
+        "Fukant",
+        "Bhakant",
+        "Dubant",
+        "Dheri"
+      ],
+      "answer": 2,
+      "section": "Rituals"
+    },
+    {
+      "id": "Q050",
+      "question": "The Raulane festival is celebrated to honor 'Sauni', which are believed to be what?",
+      "options": [
+        "Mountain Fairies",
+        "Evil Spirits",
+        "Village Elders",
+        "Kings"
+      ],
+      "answer": 0,
+      "section": "Festivals"
+    },
+    {
+      "id": "Q051",
+      "question": "During the Raulane ritual, what is the name of the dagger carried by the 'Raula' for protection?",
+      "options": [
+        "Gachchi",
+        "Rakkas",
+        "Doru",
+        "Bithri"
+      ],
+      "answer": 1,
+      "section": "Rituals"
+    },
+    {
+      "id": "Q052",
+      "question": "Which of these is a type of silver ancestral jewelry passed down in Kinnauri families?",
+      "options": [
+        "Thepang",
+        "Daglo",
+        "Fasul",
+        "Gachchi"
+      ],
+      "answer": 1,
+      "section": "Culture"
+    },
+    {
+      "id": "Q053",
+      "question": "The 800-year-old Sangla Holi is also known by which local name?",
+      "options": [
+        "Phagli",
+        "Raulane",
+        "Sazo",
+        "Losar"
+      ],
+      "answer": 0,
+      "section": "Festivals"
+    },
+    {
+      "id": "Q054",
+      "question": "What is the name of the local wine shared among villagers to show unity during Sangla Holi?",
+      "options": [
+        "Totu",
+        "Fasul",
+        "Sattu",
+        "Gulaal"
+      ],
+      "answer": 1,
+      "section": "Culture"
+    },
+    {
+      "id": "Q055",
+      "question": "Which traditional dance of Kinnaur is specifically performed by Buddhist monks (Lamas)?",
+      "options": [
+        "Kayang",
+        "Japro",
+        "Chhamb",
+        "Shon"
+      ],
+      "answer": 2,
+      "section": "Dance"
+    },
+    {
+      "id": "Q056",
+      "question": "Apart from apples, Kinnaur is famous for the cultivation of which specific crop?",
+      "options": [
+        "Saffron",
+        "Tea",
+        "Coffee",
+        "Cardamom"
+      ],
+      "answer": 0,
+      "section": "Economy"
+    },
+    {
+      "id": "Q057",
+      "question": "Through which mountain pass does the River Satluj enter Himachal Pradesh from Tibet?",
+      "options": [
+        "Rohtang La",
+        "Shipki La",
+        "Baralacha La",
+        "Kunzum La"
+      ],
       "answer": 1,
       "section": "Geography"
     },
     {
-      "id": "Q025",
-      "question": "Which crop is known as the 'Golden Crop' of Himachal Pradesh?",
-      "options": ["Maize", "Wheat", "Apple", "Barley"],
+      "id": "Q058",
+      "question": "Which village is recognized as the last village of Kinnaur in the Sangla Valley?",
+      "options": [
+        "Kalpa",
+        "Reckong Peo",
+        "Chitkul",
+        "Chango"
+      ],
       "answer": 2,
+      "section": "Geography"
+    },
+    {
+      "id": "Q059",
+      "question": "In which year did the Kinnauri Shawl receive the Geographical Indication (GI) tag?",
+      "options": [
+        "2005",
+        "2008",
+        "2010",
+        "2012"
+      ],
+      "answer": 1,
       "section": "Economy"
     },
-{
-  "id": "Q026",
-  "question": "Which district of Himachal Pradesh is known as the 'Land of Temples'?",
-  "options": ["Kangra", "Chamba", "Kullu", "Hamirpur"],
-  "answer": 0,
-  "section": "Culture"
-},
-{
-  "id": "Q027",
-  "question": "Which lake is the largest natural lake of Himachal Pradesh?",
-  "options": ["Renuka Lake", "Rewalsar Lake", "Chandra Tal", "Khajjiar Lake"],
-  "answer": 0,
-  "section": "Geography"
-},
-{
-  "id": "Q028",
-  "question": "Which glacier is the source of the Ravi River?",
-  "options": ["Bara Shigri", "Manimahesh Glacier", "Chandra Glacier", "Bhaga Glacier"],
-  "answer": 1,
-  "section": "Geography"
-},
-{
-  "id": "Q029",
-  "question": "Which district of Himachal Pradesh produces the maximum apple crop?",
-  "options": ["Kullu", "Shimla", "Kinnaur", "Mandi"],
-  "answer": 1,
-  "section": "Economy"
-},
-{
-  "id": "Q030",
-  "question": "Which folk dance is performed during the Minjar Fair?",
-  "options": ["Nati", "Chham", "Dandaras", "Jhamakda"],
-  "answer": 0,
-  "section": "Culture"
-},
-
-{
-  "id": "Q031",
-  "question": "Which wildlife sanctuary is located in Chamba district?",
-  "options": ["Kalatop Khajjiar Sanctuary", "Renuka Sanctuary", "Churdhar Sanctuary", "Pong Dam Sanctuary"],
-  "answer": 0,
-  "section": "Environment"
-},
-{
-  "id": "Q032",
-  "question": "Which district has the highest sex ratio in Himachal Pradesh (Census 2011)?",
-  "options": ["Kangra", "Hamirpur", "Bilaspur", "Lahaul-Spiti"],
-  "answer": 1,
-  "section": "Demography"
-},
-{
-  "id": "Q033",
-  "question": "Which national highway connects Shimla with Kinnaur?",
-  "options": ["NH-5", "NH-205", "NH-154", "NH-503"],
-  "answer": 0,
-  "section": "Geography"
-},
-{
-  "id": "Q034",
-  "question": "Which festival is celebrated to mark the harvest season in Lahaul-Spiti?",
-  "options": ["Phagli", "Losar", "Halda", "Minjar"],
-  "answer": 2,
-  "section": "Culture"
-},
-{
-  "id": "Q035",
-  "question": "Which dam is constructed on the Beas River?",
-  "options": ["Bhakra Dam", "Pong Dam", "Kol Dam", "Chamera Dam"],
-  "answer": 1,
-  "section": "Geography"
-},
-
-{
-  "id": "Q036",
-  "question": "Which hill station is known as the 'Queen of Hill Stations' in Himachal Pradesh?",
-  "options": ["Dalhousie", "Shimla", "Kasauli", "Chail"],
-  "answer": 1,
-  "section": "Tourism"
-},
-{
-  "id": "Q037",
-  "question": "Which sanctuary is famous for migratory birds in Himachal Pradesh?",
-  "options": ["Renuka Sanctuary", "Pong Dam Sanctuary", "Daranghati Sanctuary", "Chail Sanctuary"],
-  "answer": 1,
-  "section": "Environment"
-},
-{
-  "id": "Q038",
-  "question": "Which district is known for the Shoolini Fair?",
-  "options": ["Solan", "Bilaspur", "Una", "Sirmaur"],
-  "answer": 0,
-  "section": "Culture"
-},
-{
-  "id": "Q039",
-  "question": "Which peak is located in the Dhauladhar range?",
-  "options": ["Reo Purgyil", "Hanuman Tibba", "Shilla Peak", "Indrasan"],
-  "answer": 1,
-  "section": "Geography"
-},
-{
-  "id": "Q040",
-  "question": "Which district was the last princely state to merge with Himachal Pradesh?",
-  "options": ["Sirmaur", "Bushahr", "Bilaspur", "Chamba"],
-  "answer": 2,
-  "section": "History"
-},
-
-{
-  "id": "Q041",
-  "question": "Which crop is predominantly grown in the Lahaul-Spiti region?",
-  "options": ["Wheat", "Barley", "Rice", "Maize"],
-  "answer": 1,
-  "section": "Agriculture"
-},
-{
-  "id": "Q042",
-  "question": "Which district has the maximum number of hydropower projects?",
-  "options": ["Kinnaur", "Kullu", "Chamba", "Mandi"],
-  "answer": 0,
-  "section": "Economy"
-},
-{
-  "id": "Q043",
-  "question": "Which place is known for the Maa Chintpurni Temple?",
-  "options": ["Una", "Kangra", "Hamirpur", "Bilaspur"],
-  "answer": 0,
-  "section": "Culture"
-},
-{
-  "id": "Q044",
-  "question": "Which river originates from the Bara Shigri Glacier?",
-  "options": ["Ravi", "Beas", "Chenab", "Sutlej"],
-  "answer": 2,
-  "section": "Geography"
-},
-{
-  "id": "Q045",
-  "question": "Which district has the largest geographical area in Himachal Pradesh?",
-  "options": ["Chamba", "Kinnaur", "Lahaul-Spiti", "Kangra"],
-  "answer": 2,
-  "section": "Geography"
-},
-
-{
-  "id": "Q046",
-  "question": "Which folk song form is popular in Kangra district?",
-  "options": ["Ainchaliyan", "Jhanjoti", "Sukrat", "Bari"],
-  "answer": 0,
-  "section": "Culture"
-},
-{
-  "id": "Q047",
-  "question": "Which wildlife sanctuary is located in Shimla district?",
-  "options": ["Chail Sanctuary", "Daranghati Sanctuary", "Renuka Sanctuary", "Kalatop Sanctuary"],
-  "answer": 1,
-  "section": "Environment"
-},
-{
-  "id": "Q048",
-  "question": "Which town is known as the 'Mushroom City of India'?",
-  "options": ["Solan", "Una", "Paonta Sahib", "Nahan"],
-  "answer": 0,
-  "section": "Economy"
-},
-{
-  "id": "Q049",
-  "question": "Which pass connects Lahaul valley with Spiti valley?",
-  "options": ["Rohtang Pass", "Kunzum Pass", "Baralacha La", "Shipki La"],
-  "answer": 1,
-  "section": "Geography"
-},
-{
-  "id": "Q050",
-  "question": "Which river flows through the Pangi Valley?",
-  "options": ["Ravi", "Chenab", "Beas", "Sutlej"],
-  "answer": 1,
-  "section": "Geography"
-},
-
-{
-  "id": "Q051",
-  "question": "Which district has the highest decadal population growth rate?",
-  "options": ["Solan", "Una", "Hamirpur", "Bilaspur"],
-  "answer": 1,
-  "section": "Demography"
-},
-{
-  "id": "Q052",
-  "question": "Which wildlife sanctuary is famous for Cheer Pheasant?",
-  "options": ["Chail Sanctuary", "Daranghati Sanctuary", "Kalatop Sanctuary", "Pong Dam Sanctuary"],
-  "answer": 0,
-  "section": "Environment"
-},
-{
-  "id": "Q053",
-  "question": "Which district of Himachal Pradesh shares an international border with China?",
-  "options": ["Chamba", "Kinnaur", "Lahaul-Spiti", "Both B and C"],
-  "answer": 3,
-  "section": "Geography"
-},
-{
-  "id": "Q054",
-  "question": "Which river valley is associated with the Bhakra Nangal Project?",
-  "options": ["Beas Valley", "Sutlej Valley", "Ravi Valley", "Chenab Valley"],
-  "answer": 1,
-  "section": "Geography"
-},
-{
-  "id": "Q055",
-  "question": "Which district is known for the Renuka Ji Fair?",
-  "options": ["Solan", "Sirmaur", "Una", "Bilaspur"],
-  "answer": 1,
-  "section": "Culture"
-},
-
-{
-  "id": "Q056",
-  "question": "Which place in Himachal Pradesh is known for the Tibetan Parliament-in-Exile?",
-  "options": ["McLeod Ganj", "Manali", "Keylong", "Reckong Peo"],
-  "answer": 0,
-  "section": "Polity"
-},
-{
-  "id": "Q057",
-  "question": "Which district has the maximum number of tribal population?",
-  "options": ["Chamba", "Kinnaur", "Lahaul-Spiti", "Kullu"],
-  "answer": 2,
-  "section": "Demography"
-},
-{
-  "id": "Q058",
-  "question": "Which national park of Himachal Pradesh is a UNESCO World Heritage Site?",
-  "options": ["Pin Valley National Park", "Inderkilla National Park", "Great Himalayan National Park", "Simbolbara National Park"],
-  "answer": 2,
-  "section": "Environment"
-},
-{
-  "id": "Q059",
-  "question": "Which place is known as the 'Gateway to Spiti Valley'?",
-  "options": ["Keylong", "Kaza", "Sumdo", "Nako"],
-  "answer": 0,
-  "section": "Geography"
-},
-{
-  "id": "Q060",
-  "question": "Which district of Himachal Pradesh is famous for the Pabbar Valley?",
-  "options": ["Shimla", "Kinnaur", "Chamba", "Kullu"],
-  "answer": 0,
-  "section": "Geography"
-},
-{
-  "id": "Q061",
-  "question": "Which district of Himachal Pradesh is known for the Chamba Rumal?",
-  "options": ["Kullu", "Chamba", "Kangra", "Mandi"],
-  "answer": 1,
-  "section": "Culture"
-},
-{
-  "id": "Q062",
-  "question": "Which river forms the boundary between Himachal Pradesh and Jammu & Kashmir (UT)?",
-  "options": ["Ravi", "Chenab", "Ujh", "Beas"],
-  "answer": 1,
-  "section": "Geography"
-},
-{
-  "id": "Q063",
-  "question": "Which place in Himachal Pradesh is famous for the Hidimba Devi Temple?",
-  "options": ["Manali", "Kullu", "Mandi", "Chamba"],
-  "answer": 0,
-  "section": "Culture"
-},
-{
-  "id": "Q064",
-  "question": "Which district has the highest urban population in Himachal Pradesh?",
-  "options": ["Shimla", "Solan", "Kangra", "Una"],
-  "answer": 0,
-  "section": "Demography"
-},
-{
-  "id": "Q065",
-  "question": "Which wildlife sanctuary is located in Bilaspur district?",
-  "options": ["Gobind Sagar Sanctuary", "Renuka Sanctuary", "Pong Dam Sanctuary", "Chail Sanctuary"],
-  "answer": 0,
-  "section": "Environment"
-},
-
-{
-  "id": "Q066",
-  "question": "Which district of Himachal Pradesh is famous for the Naina Devi Temple?",
-  "options": ["Bilaspur", "Una", "Hamirpur", "Kangra"],
-  "answer": 0,
-  "section": "Culture"
-},
-{
-  "id": "Q067",
-  "question": "Which river is formed by the confluence of the Chandra and Bhaga rivers?",
-  "options": ["Ravi", "Chenab", "Beas", "Sutlej"],
-  "answer": 1,
-  "section": "Geography"
-},
-{
-  "id": "Q068",
-  "question": "Which district is known as the 'Power House of Himachal Pradesh'?",
-  "options": ["Kinnaur", "Chamba", "Mandi", "Kullu"],
-  "answer": 0,
-  "section": "Economy"
-},
-{
-  "id": "Q069",
-  "question": "Which pass connects Kinnaur with Tibet region?",
-  "options": ["Rohtang Pass", "Kunzum Pass", "Shipki La", "Baralacha La"],
-  "answer": 2,
-  "section": "Geography"
-},
-{
-  "id": "Q070",
-  "question": "Which district is known for the famous Deotsidh Temple?",
-  "options": ["Hamirpur", "Bilaspur", "Una", "Kangra"],
-  "answer": 0,
-  "section": "Culture"
-},
-
-{
-  "id": "Q071",
-  "question": "Which wildlife sanctuary is located in Kullu district?",
-  "options": ["Great Himalayan National Park", "Kalatop Sanctuary", "Chail Sanctuary", "Renuka Sanctuary"],
-  "answer": 0,
-  "section": "Environment"
-},
-{
-  "id": "Q072",
-  "question": "Which district has the maximum forest area in Himachal Pradesh?",
-  "options": ["Chamba", "Kullu", "Shimla", "Sirmaur"],
-  "answer": 0,
-  "section": "Environment"
-},
-{
-  "id": "Q073",
-  "question": "Which town of Himachal Pradesh is known as the 'Apple Bowl of India'?",
-  "options": ["Shimla", "Kotgarh", "Kinnaur", "Kullu"],
-  "answer": 1,
-  "section": "Economy"
-},
-{
-  "id": "Q074",
-  "question": "Which fair of Himachal Pradesh is associated with Lord Raghunath?",
-  "options": ["Minjar Fair", "Lavi Fair", "Kullu Dussehra", "Phagli Fair"],
-  "answer": 2,
-  "section": "Culture"
-},
-{
-  "id": "Q075",
-  "question": "Which river valley is associated with the Nathpa Jhakri Hydroelectric Project?",
-  "options": ["Beas Valley", "Sutlej Valley", "Ravi Valley", "Chenab Valley"],
-  "answer": 1,
-  "section": "Geography"
-},
-
-{
-  "id": "Q076",
-  "question": "Which district of Himachal Pradesh has the highest number of census towns?",
-  "options": ["Solan", "Shimla", "Kangra", "Una"],
-  "answer": 0,
-  "section": "Demography"
-},
-{
-  "id": "Q077",
-  "question": "Which sanctuary is known for Musk Deer conservation?",
-  "options": ["Daranghati Sanctuary", "Kalatop Sanctuary", "Chail Sanctuary", "Renuka Sanctuary"],
-  "answer": 0,
-  "section": "Environment"
-},
-{
-  "id": "Q078",
-  "question": "Which district is famous for the Tattapani hot water springs?",
-  "options": ["Mandi", "Shimla", "Kullu", "Solan"],
-  "answer": 0,
-  "section": "Geography"
-},
-{
-  "id": "Q079",
-  "question": "Which district is known for the Rewalsar (Tso Pema) Lake?",
-  "options": ["Kullu", "Mandi", "Kangra", "Bilaspur"],
-  "answer": 1,
-  "section": "Culture"
-},
-{
-  "id": "Q080",
-  "question": "Which district has the lowest literacy rate in Himachal Pradesh?",
-  "options": ["Chamba", "Lahaul-Spiti", "Kinnaur", "Sirmaur"],
-  "answer": 1,
-  "section": "Demography"
-},
-
-{
-  "id": "Q081",
-  "question": "Which wildlife sanctuary is located in Solan district?",
-  "options": ["Chail Sanctuary", "Simbolbara Sanctuary", "Kalatop Sanctuary", "Daranghati Sanctuary"],
-  "answer": 1,
-  "section": "Environment"
-},
-{
-  "id": "Q082",
-  "question": "Which district of Himachal Pradesh is known for the Pong Dam Lake?",
-  "options": ["Kangra", "Una", "Bilaspur", "Hamirpur"],
-  "answer": 0,
-  "section": "Geography"
-},
-{
-  "id": "Q083",
-  "question": "Which town is the headquarters of Lahaul-Spiti district?",
-  "options": ["Keylong", "Kaza", "Udaipur", "Tabo"],
-  "answer": 0,
-  "section": "Polity"
-},
-{
-  "id": "Q084",
-  "question": "Which district is known for the International Lavi Fair?",
-  "options": ["Kinnaur", "Shimla", "Chamba", "Kullu"],
-  "answer": 0,
-  "section": "Culture"
-},
-{
-  "id": "Q085",
-  "question": "Which river flows through the Kangra Valley?",
-  "options": ["Ravi", "Beas", "Sutlej", "Chenab"],
-  "answer": 1,
-  "section": "Geography"
-},
-
-{
-  "id": "Q086",
-  "question": "Which district is known for the Churdhar Peak?",
-  "options": ["Sirmaur", "Shimla", "Solan", "Mandi"],
-  "answer": 0,
-  "section": "Geography"
-},
-{
-  "id": "Q087",
-  "question": "Which wildlife sanctuary is located in Sirmaur district?",
-  "options": ["Renuka Sanctuary", "Chail Sanctuary", "Kalatop Sanctuary", "Pong Dam Sanctuary"],
-  "answer": 0,
-  "section": "Environment"
-},
-{
-  "id": "Q088",
-  "question": "Which district of Himachal Pradesh has the highest population?",
-  "options": ["Kangra", "Shimla", "Mandi", "Solan"],
-  "answer": 0,
-  "section": "Demography"
-},
-{
-  "id": "Q089",
-  "question": "Which place in Himachal Pradesh is famous for the Tabo Monastery?",
-  "options": ["Kinnaur", "Lahaul-Spiti", "Kullu", "Chamba"],
-  "answer": 1,
-  "section": "Culture"
-},
-{
-  "id": "Q090",
-  "question": "Which river valley is known for the Chamera Hydroelectric Project?",
-  "options": ["Ravi Valley", "Beas Valley", "Sutlej Valley", "Chenab Valley"],
-  "answer": 0,
-  "section": "Geography"
-},
-{
-  "id": "Q091",
-  "question": "Which district of Himachal Pradesh is known for the International Minjar Fair?",
-  "options": ["Chamba", "Kullu", "Kangra", "Mandi"],
-  "answer": 0,
-  "section": "Culture"
-},
-{
-  "id": "Q092",
-  "question": "Which river originates from the Rohtang Pass region?",
-  "options": ["Ravi", "Beas", "Chenab", "Sutlej"],
-  "answer": 1,
-  "section": "Geography"
-},
-{
-  "id": "Q093",
-  "question": "Which district has the highest female literacy rate in Himachal Pradesh?",
-  "options": ["Hamirpur", "Una", "Solan", "Shimla"],
-  "answer": 0,
-  "section": "Demography"
-},
-{
-  "id": "Q094",
-  "question": "Which wildlife sanctuary is located in Kangra district?",
-  "options": ["Dhauladhar Sanctuary", "Kalatop Sanctuary", "Renuka Sanctuary", "Chail Sanctuary"],
-  "answer": 0,
-  "section": "Environment"
-},
-{
-  "id": "Q095",
-  "question": "Which place is known as the 'City of Lakes' in Himachal Pradesh?",
-  "options": ["Rewalsar", "Nahan", "Mandi", "Bilaspur"],
-  "answer": 2,
-  "section": "Tourism"
-},
-
-{
-  "id": "Q096",
-  "question": "Which dam has created the Gobind Sagar Lake?",
-  "options": ["Bhakra Dam", "Kol Dam", "Pong Dam", "Chamera Dam"],
-  "answer": 0,
-  "section": "Geography"
-},
-{
-  "id": "Q097",
-  "question": "Which district is known for the Paonta Sahib Gurudwara?",
-  "options": ["Solan", "Sirmaur", "Una", "Bilaspur"],
-  "answer": 1,
-  "section": "Culture"
-},
-{
-  "id": "Q098",
-  "question": "Which river flows through the Spiti Valley?",
-  "options": ["Sutlej", "Spiti River", "Beas", "Chenab"],
-  "answer": 1,
-  "section": "Geography"
-},
-{
-  "id": "Q099",
-  "question": "Which district of Himachal Pradesh is known for the Kullu Shawls?",
-  "options": ["Kullu", "Chamba", "Kangra", "Mandi"],
-  "answer": 0,
-  "section": "Culture"
-},
-{
-  "id": "Q100",
-  "question": "Which town is known as the 'Headquarters of Apple Trade' in Himachal Pradesh?",
-  "options": ["Shimla", "Rohru", "Theog", "Kotkhai"],
-  "answer": 3,
-  "section": "Economy"
-},
-
-{
-  "id": "Q101",
-  "question": "Which wildlife sanctuary is located in Kinnaur district?",
-  "options": ["Rupi Bhaba Sanctuary", "Chail Sanctuary", "Daranghati Sanctuary", "Renuka Sanctuary"],
-  "answer": 0,
-  "section": "Environment"
-},
-{
-  "id": "Q102",
-  "question": "Which district of Himachal Pradesh has the lowest population?",
-  "options": ["Lahaul-Spiti", "Kinnaur", "Chamba", "Bilaspur"],
-  "answer": 0,
-  "section": "Demography"
-},
-{
-  "id": "Q103",
-  "question": "Which pass connects Chamba district with Lahaul?",
-  "options": ["Sach Pass", "Rohtang Pass", "Kunzum Pass", "Shipki La"],
-  "answer": 0,
-  "section": "Geography"
-},
-{
-  "id": "Q104",
-  "question": "Which river valley is associated with the Kol Dam Project?",
-  "options": ["Beas Valley", "Sutlej Valley", "Ravi Valley", "Chenab Valley"],
-  "answer": 1,
-  "section": "Geography"
-},
-{
-  "id": "Q105",
-  "question": "Which district is famous for the Shikari Devi Temple?",
-  "options": ["Mandi", "Kullu", "Chamba", "Shimla"],
-  "answer": 0,
-  "section": "Culture"
-},
-
-{
-  "id": "Q106",
-  "question": "Which district of Himachal Pradesh has the maximum number of villages?",
-  "options": ["Kangra", "Mandi", "Shimla", "Chamba"],
-  "answer": 0,
-  "section": "Demography"
-},
-{
-  "id": "Q107",
-  "question": "Which wildlife sanctuary is located in Mandi district?",
-  "options": ["Daranghati Sanctuary", "Chail Sanctuary", "Renuka Sanctuary", "Simbolbara Sanctuary"],
-  "answer": 0,
-  "section": "Environment"
-},
-{
-  "id": "Q108",
-  "question": "Which place is known as the 'Scotland of the East' in Himachal Pradesh?",
-  "options": ["Khajjiar", "Dalhousie", "Chail", "Manali"],
-  "answer": 0,
-  "section": "Tourism"
-},
-{
-  "id": "Q109",
-  "question": "Which district is known for the Bhuri Singh Museum?",
-  "options": ["Chamba", "Kangra", "Mandi", "Shimla"],
-  "answer": 0,
-  "section": "Culture"
-},
-{
-  "id": "Q110",
-  "question": "Which river is also known as the Langchen Khambab in Tibet?",
-  "options": ["Sutlej", "Beas", "Ravi", "Chenab"],
-  "answer": 0,
-  "section": "Geography"
-},
-
-{
-  "id": "Q111",
-  "question": "Which district of Himachal Pradesh is known for the Bara Bhangal region?",
-  "options": ["Kangra", "Chamba", "Kullu", "Mandi"],
-  "answer": 0,
-  "section": "Geography"
-},
-{
-  "id": "Q112",
-  "question": "Which wildlife sanctuary is famous for the Himalayan Brown Bear?",
-  "options": ["Pin Valley National Park", "Great Himalayan National Park", "Chail Sanctuary", "Renuka Sanctuary"],
-  "answer": 1,
-  "section": "Environment"
-},
-{
-  "id": "Q113",
-  "question": "Which district of Himachal Pradesh is known for the Kinnauri Shawls?",
-  "options": ["Kinnaur", "Kullu", "Chamba", "Kangra"],
-  "answer": 0,
-  "section": "Culture"
-},
-{
-  "id": "Q114",
-  "question": "Which river flows through the Chamba Valley?",
-  "options": ["Beas", "Chenab", "Ravi", "Sutlej"],
-  "answer": 2,
-  "section": "Geography"
-},
-{
-  "id": "Q115",
-  "question": "Which district is known for the Haripurdhar peak?",
-  "options": ["Sirmaur", "Shimla", "Solan", "Mandi"],
-  "answer": 0,
-  "section": "Geography"
-},
-
-{
-  "id": "Q116",
-  "question": "Which district of Himachal Pradesh has the highest scheduled tribe population percentage?",
-  "options": ["Lahaul-Spiti", "Kinnaur", "Chamba", "Kullu"],
-  "answer": 0,
-  "section": "Demography"
-},
-{
-  "id": "Q117",
-  "question": "Which national park is located in Lahaul-Spiti district?",
-  "options": ["Pin Valley National Park", "Inderkilla National Park", "Great Himalayan National Park", "Simbolbara National Park"],
-  "answer": 0,
-  "section": "Environment"
-},
-{
-  "id": "Q118",
-  "question": "Which district of Himachal Pradesh is known for the Sujanpur Tira Fort?",
-  "options": ["Hamirpur", "Kangra", "Bilaspur", "Una"],
-  "answer": 0,
-  "section": "History"
-},
-{
-  "id": "Q119",
-  "question": "Which river valley is associated with the Uhl Hydroelectric Project?",
-  "options": ["Beas Valley", "Uhl Valley", "Sutlej Valley", "Ravi Valley"],
-  "answer": 1,
-  "section": "Geography"
-},
-{
-  "id": "Q120",
-  "question": "Which district of Himachal Pradesh is known for the Tattapani hot springs on the Sutlej river?",
-  "options": ["Shimla", "Mandi", "Solan", "Kullu"],
-  "answer": 0,
-  "section": "Geography"
-}
+    {
+      "id": "Q060",
+      "question": "Who is the author of the book Music of Kinnaur?",
+      "options": [
+        "HC Vajpayee",
+        "EA Chouhan",
+        "Kalidasa",
+        "Tikka Ram"
+      ],
+      "answer": 1,
+      "section": "Literature"
+    },
+    {
+      "id": "Q061",
+      "question": "Who founded the state of Chamba in 550 AD?",
+      "options": [
+        "Meru Verman",
+        "Maru Verman",
+        "Sahil Verman",
+        "Aditya Verman"
+      ],
+      "answer": 1,
+      "section": "Ancient History"
+    },
+    {
+      "id": "Q062",
+      "question": "Which ruler shifted the capital from Bharmour to Champa Nagar in 930 AD?",
+      "options": [
+        "Mushan Verman",
+        "Ajay Verman",
+        "Sahil Verman",
+        "Yugankar Verman"
+      ],
+      "answer": 2,
+      "section": "Ancient History"
+    },
+    {
+      "id": "Q063",
+      "question": "Who was the famous sculptor of Meru Verman responsible for temples like Lakshanadevi?",
+      "options": [
+        "Nikka",
+        "Gugga",
+        "Harku",
+        "Ranjha"
+      ],
+      "answer": 1,
+      "section": "Ancient History"
+    },
+    {
+      "id": "Q064",
+      "question": "Which ruler of Chamba was known as 'Balikaran' due to his charitable nature?",
+      "options": [
+        "Janardan",
+        "Pratap Singh",
+        "Bal Bhadra",
+        "Prithvi Singh"
+      ],
+      "answer": 2,
+      "section": "Medieval History"
+    },
+    {
+      "id": "Q065",
+      "question": "The Battle of Dahlog resulted in Chamba coming under the control of which ruler?",
+      "options": [
+        "Jagat Singh",
+        "Suraj Mal",
+        "Sansar Chand",
+        "Gulab Singh"
+      ],
+      "answer": 0,
+      "section": "Medieval History"
+    },
+    {
+      "id": "Q066",
+      "question": "Which ruler of Chamba was the first to adopt the title 'Singh'?",
+      "options": [
+        "Aditya Verman",
+        "Ganesh Verman",
+        "Umed Singh",
+        "Raj Singh"
+      ],
+      "answer": 1,
+      "section": "Ancient History"
+    },
+    {
+      "id": "Q067",
+      "question": "Which Wazir successfully prevented the merger of Chamba into Kashmir during the Treaty of Amritsar (1846)?",
+      "options": [
+        "Wazir Nathu",
+        "Wazir Bhaga",
+        "Wazir Ram Singh",
+        "Wazir Parasram"
+      ],
+      "answer": 1,
+      "section": "Modern History"
+    },
+    {
+      "id": "Q068",
+      "question": "In which year was Chamba town electrified during the reign of Raja Bhuri Singh?",
+      "options": [
+        "1900",
+        "1905",
+        "1908",
+        "1910"
+      ],
+      "answer": 3,
+      "section": "Modern History"
+    },
+    {
+      "id": "Q069",
+      "question": "Which festival in Chamba is celebrated exclusively for women and children to honor Rani Sunaina Devi?,",
+      "options": [
+        "Minjar Fair",
+        "Suhi Fair",
+        "Phul Yatra",
+        "Lishoo Fair"
+      ],
+      "answer": 1,
+      "section": "Culture/Festivals"
+    },
+    {
+      "id": "Q070",
+      "question": "The Shakti Devi temple in Chhatrari features which specific architectural style?",
+      "options": [
+        "Nagara style",
+        "Pagoda style",
+        "Pent-roofed style",
+        "Pyramidal style"
+      ],
+      "answer": 2,
+      "section": "Architecture"
+    },
+    {
+      "id": "Q071",
+      "question": "Which famous painter was associated with the court of Raja Raj Singh?",
+      "options": [
+        "Nikka",
+        "Gugga",
+        "Wazir Nathu",
+        "Major Blair Reed"
+      ],
+      "answer": 0,
+      "section": "Art/Modern History"
+    },
+    {
+      "id": "Q072",
+      "question": "On which date did Chamba officially merge to become a district of Himachal Pradesh?",
+      "options": [
+        "15 August 1947",
+        "26 January 1950",
+        "8 March 1948",
+        "1 November 1966"
+      ],
+      "answer": 2,
+      "section": "Modern History"
+    },
+    {
+      "id": "Q073",
+      "question": "Which of the following dance forms is specifically performed by the Gaddi Tribe?",
+      "options": [
+        "Deepak Dance",
+        "Dandras Dance",
+        "Jhanjar Dance",
+        "Drati Dance"
+      ],
+      "answer": 1,
+      "section": "Culture/Dance"
+    },
+    {
+      "id": "Q074",
+      "question": "Which king refused the orders of Mughal Emperor Aurangzeb to destroy Hindu idols?",
+      "options": [
+        "Prithvi Singh",
+        "Chattar Singh",
+        "Umed Singh",
+        "Shri Singh"
+      ],
+      "answer": 1,
+      "section": "Medieval History"
+    },
+    {
+      "id": "Q075",
+      "question": "The international 'Minjar Fair' of Chamba was started by which ruler in the 10th century?",
+      "options": [
+        "Meru Verman",
+        "Sahil Verman",
+        "Yugankar Verman",
+        "Laxman Singh"
+      ],
+      "answer": 1,
+      "section": "Culture/Festivals"
+    },
+    {
+      "id": "Q076",
+      "question": "Which region of Chamba was historically known as the 'Place of Banishment' for political offenders?",
+      "options": [
+        "Bharmour",
+        "Bhattiyat",
+        "Pangi",
+        "Churah"
+      ],
+      "answer": 2,
+      "section": "Geography/History"
+    },
+    {
+      "id": "Q077",
+      "question": "In which year did the Chamba Chappal receive the Geographical Indication (GI) tag?",
+      "options": [
+        "2018",
+        "2019",
+        "2020",
+        "2021"
+      ],
+      "answer": 3,
+      "section": "Culture/Economy"
+    },
+    {
+      "id": "Q078",
+      "question": "Who built the Gauri Shankar Temple in Chamba?",
+      "options": [
+        "Sahil Verman",
+        "Yugankar Verman",
+        "Tribhuvan Rekha Devi",
+        "Meru Verman"
+      ],
+      "answer": 1,
+      "section": "Architecture"
+    },
+    {
+      "id": "Q079",
+      "question": "Which lake is located within the Chamba district?",
+      "options": [
+        "Rewalsar Lake",
+        "Lama Lake",
+        "Renuka Lake",
+        "Brighu Lake"
+      ],
+      "answer": 1,
+      "section": "Geography"
+    },
+    {
+      "id": "Q080",
+      "question": "The Baira Hydroelectric Project is constructed on which river?",
+      "options": [
+        "Beas",
+        "Chenab",
+        "Ravi",
+        "Yamuna"
+      ],
+      "answer": 2,
+      "section": "Geography/Economy"
+    },
+    {
+      "id": "Q081",
+      "question": "The Lakshminarayan Temple in Chamba is built in which architectural style?",
+      "options": [
+        "Shikhara",
+        "Pagoda",
+        "Dome",
+        "Pent Roof"
+      ],
+      "answer": 0,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q082",
+      "question": "To which architectural category does the Hadimba Temple of Kullu belong?",
+      "options": [
+        "Shikhara",
+        "Pagoda",
+        "Flat Roof",
+        "Pyramidal"
+      ],
+      "answer": 1,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q083",
+      "question": "The Jawalamukhi Temple in Kangra features which of the following styles?",
+      "options": [
+        "Pent Roof",
+        "Shikhara",
+        "Dome",
+        "Pagoda"
+      ],
+      "answer": 2,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q084",
+      "question": "The Hateshwari Temple in Shimla is a prominent example of which style?",
+      "options": [
+        "Pyramidal",
+        "Flat Roof",
+        "Dome",
+        "Shikhara"
+      ],
+      "answer": 0,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q085",
+      "question": "Bijli Mahadev Temple in Kullu is constructed in which architectural style?",
+      "options": [
+        "Pagoda",
+        "Pent Roof",
+        "Pyramidal",
+        "Shikhara"
+      ],
+      "answer": 1,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q086",
+      "question": "Which style is represented by the Narvadeshwar Temple in Sujanpur?",
+      "options": [
+        "Dome",
+        "Shikhara",
+        "Flat Roof",
+        "Pagoda"
+      ],
+      "answer": 2,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q087",
+      "question": "The Parashar Temple in Mandi follows which architectural pattern?",
+      "options": [
+        "Pagoda",
+        "Pent Roof",
+        "Pyramidal",
+        "Flat Roof"
+      ],
+      "answer": 0,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q088",
+      "question": "The rock-cut Thakurdwara Temple at Masroor is classified under which style?",
+      "options": [
+        "Dome",
+        "Shikhara",
+        "Pagoda",
+        "Pent Roof"
+      ],
+      "answer": 1,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q089",
+      "question": "The Chintpurni Temple in Una district is built in which style?",
+      "options": [
+        "Shikhara",
+        "Pent Roof",
+        "Dome",
+        "Pyramidal"
+      ],
+      "answer": 2,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q090",
+      "question": "Lakshana Devi Temple in Chamba follows which specific roof style?",
+      "options": [
+        "Pent Roof",
+        "Pagoda",
+        "Flat Roof",
+        "Shikhara"
+      ],
+      "answer": 0,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q091",
+      "question": "The Vaidyanath Temple in Baijnath is an example of which style?",
+      "options": [
+        "Pyramidal",
+        "Shikhara",
+        "Dome",
+        "Pagoda"
+      ],
+      "answer": 1,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q092",
+      "question": "Which architectural style is seen in the Chaugaon Temple of Kinnaur?",
+      "options": [
+        "Shikhara",
+        "Pent Roof",
+        "Pagoda",
+        "Dome"
+      ],
+      "answer": 2,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q093",
+      "question": "The Naina Devi Temple in Bilaspur is constructed in which style?",
+      "options": [
+        "Dome",
+        "Pyramidal",
+        "Shikhara",
+        "Flat Roof"
+      ],
+      "answer": 0,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q094",
+      "question": "The Shiva Temple located in Jubbal belongs to which architectural category?",
+      "options": [
+        "Pagoda",
+        "Pyramidal",
+        "Pent Roof",
+        "Dome"
+      ],
+      "answer": 1,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q095",
+      "question": "Marikula Devi Temple in Udaipur (Lahaul & Spiti) is built in which style?",
+      "options": [
+        "Shikhara",
+        "Flat Roof",
+        "Pent Roof",
+        "Pagoda"
+      ],
+      "answer": 2,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q096",
+      "question": "The Brajraj Temple in Nurpur is an example of which style?",
+      "options": [
+        "Flat Roof",
+        "Dome",
+        "Pyramidal",
+        "Shikhara"
+      ],
+      "answer": 0,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q097",
+      "question": "The Manu Temple in Kullu follows which architectural style?",
+      "options": [
+        "Pent Roof",
+        "Pagoda",
+        "Shikhara",
+        "Dome"
+      ],
+      "answer": 1,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q098",
+      "question": "Bijaura Temple in the Kullu region is classified as which style?",
+      "options": [
+        "Pagoda",
+        "Dome",
+        "Shikhara",
+        "Pyramidal"
+      ],
+      "answer": 2,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q099",
+      "question": "Maheswar Temple in Kinnaur is built in which distinctive style?",
+      "options": [
+        "Pagoda",
+        "Pent Roof",
+        "Flat Roof",
+        "Shikhara"
+      ],
+      "answer": 0,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q100",
+      "question": "The Shakti Devi Temple in Chamba is an example of which architecture?",
+      "options": [
+        "Dome",
+        "Pent Roof",
+        "Shikhara",
+        "Pyramidal"
+      ],
+      "answer": 1,
+      "section": "Art & Architecture"
+    },
+    {
+      "id": "Q101",
+      "question": "Who is the author of the book \"Indian Painting from Punjab hills\"?",
+      "options": [
+        "BC Chhabra",
+        "WG Archer",
+        "OC Handa",
+        "MS Randhawa"
+      ],
+      "answer": 1,
+      "section": "Literature"
+    },
+    {
+      "id": "Q102",
+      "question": "\"Antiquities of Chamba State (Part 2)\" was written by which author?",
+      "options": [
+        "JP Vogel",
+        "Hermen Goetz",
+        "BC Chhabra",
+        "Daleep Chakravarti"
+      ],
+      "answer": 2,
+      "section": "Literature"
+    },
+    {
+      "id": "Q103",
+      "question": "Who wrote the book \"Bilaspur ki Kahani\"?",
+      "options": [
+        "Akshar Singh",
+        "Anand Chand",
+        "Shanta Kumar",
+        "YS Parmar"
+      ],
+      "answer": 0,
+      "section": "Literature"
+    },
+    {
+      "id": "Q104",
+      "question": "Which author wrote \"Shimla Past and Present\"?",
+      "options": [
+        "LC Pandey",
+        "JC Franck",
+        "Edward Buck",
+        "Prem Pakhrolvi"
+      ],
+      "answer": 2,
+      "section": "Literature"
+    },
+    {
+      "id": "Q105",
+      "question": "Who is the author of \"Abode of Light\"?",
+      "options": [
+        "Nicholes Roare",
+        "Chandradhar Guleri",
+        "MS Randhawa",
+        "Lempel Grift"
+      ],
+      "answer": 0,
+      "section": "Literature"
+    },
+    {
+      "id": "Q106",
+      "question": "The famous work \"Usne kaha tha\" was written by?",
+      "options": [
+        "Prem Pakhrolvi",
+        "Chandradhar Guleri",
+        "LC Pandey",
+        "BC Chhabra"
+      ],
+      "answer": 1,
+      "section": "Literature"
+    },
+    {
+      "id": "Q107",
+      "question": "\"Polyandry in the Himalayas\" is authored by which personality?",
+      "options": [
+        "Manmohan Singh",
+        "Harish Kapadia",
+        "YS Parmar",
+        "Kanwar Ranzor Singh"
+      ],
+      "answer": 2,
+      "section": "Literature"
+    },
+    {
+      "id": "Q108",
+      "question": "Who wrote \"Himalaya Par Lal Chhaya\"?",
+      "options": [
+        "Shanta Kumar",
+        "YS Parmar",
+        "Akshar Singh",
+        "MS Randhawa"
+      ],
+      "answer": 0,
+      "section": "Literature"
+    },
+    {
+      "id": "Q109",
+      "question": "\"Tarikh-i-Riyasat Sirmour\" was written by which author?",
+      "options": [
+        "Raja Rasaloo",
+        "Kanwar Ranzor Singh",
+        "Manmohan Singh",
+        "JP Vogel"
+      ],
+      "answer": 1,
+      "section": "Literature"
+    },
+    {
+      "id": "Q110",
+      "question": "Who are the authors of \"History of the Punjab Hill States\"?",
+      "options": [
+        "J Hutchinson and JP Vogel",
+        "WG Archer and MS Randhawa",
+        "BC Chhabra and OC Handa",
+        "LC Pandey and JC Franck"
+      ],
+      "answer": 0,
+      "section": "Literature"
+    },
+    {
+      "id": "Q111",
+      "question": "\"The Early Wooden Temples of Chamba\" is a work by?",
+      "options": [
+        "Mia Govardhan",
+        "Hermen Goetz",
+        "Daleep Chakravarti",
+        "Akshar Singh"
+      ],
+      "answer": 1,
+      "section": "Literature"
+    },
+    {
+      "id": "Q112",
+      "question": "Who is the author of \"Basholi Painting\"?",
+      "options": [
+        "Lempel Grift",
+        "MS Randhawa",
+        "Nicholes Roare",
+        "Edward Buck"
+      ],
+      "answer": 1,
+      "section": "Literature"
+    },
+    {
+      "id": "Q113",
+      "question": "Who wrote the \"History of Mandi State\"?",
+      "options": [
+        "Manmohan Singh",
+        "YS Parmar",
+        "Harish Kapadia",
+        "Kanwar Ranzor Singh"
+      ],
+      "answer": 0,
+      "section": "Literature"
+    },
+    {
+      "id": "Q114",
+      "question": "\"Dharti Balidan Ki\" was written by which Himachal author?",
+      "options": [
+        "Shanta Kumar",
+        "Chandradhar Guleri",
+        "Akshar Singh",
+        "Prem Pakhrolvi"
+      ],
+      "answer": 0,
+      "section": "Literature"
+    },
+    {
+      "id": "Q115",
+      "question": "\"Bilaspur past, present and future\" is authored by?",
+      "options": [
+        "Akshar Singh",
+        "Anand Chand",
+        "WG Archer",
+        "BC Chhabra"
+      ],
+      "answer": 1,
+      "section": "Literature"
+    },
+    {
+      "id": "Q116",
+      "question": "Who is the author of \"Prachin Himachal and Kulut Desh\"?",
+      "options": [
+        "Prem Pakhrolvi",
+        "LC Pandey",
+        "JC Franck",
+        "Lempel Grift"
+      ],
+      "answer": 1,
+      "section": "Literature"
+    },
+    {
+      "id": "Q117",
+      "question": "\"Himalayan Art\" is a book written by?",
+      "options": [
+        "JC Franck",
+        "Edward Buck",
+        "Nicholes Roare",
+        "MS Randhawa"
+      ],
+      "answer": 0,
+      "section": "Literature"
+    },
+    {
+      "id": "Q118",
+      "question": "According to the records, who was the founder of Sirmour in 1139?",
+      "options": [
+        "Raja Rasaloo",
+        "Kanwar Ranzor Singh",
+        "Manmohan Singh",
+        "Anand Chand"
+      ],
+      "answer": 0,
+      "section": "History"
+    },
+    {
+      "id": "Q119",
+      "question": "Who wrote \"Antiquities of Kangra State\"?",
+      "options": [
+        "Daleep Chakravarti",
+        "BC Chhabra",
+        "OC Handa",
+        "Mia Govardhan"
+      ],
+      "answer": 0,
+      "section": "Literature"
+    },
+    {
+      "id": "Q120",
+      "question": "\"Buddhist Art and Antiquities of Himachal Pradesh\" is a work by?",
+      "options": [
+        "OC Handa",
+        "WG Archer",
+        "Hermen Goetz",
+        "MS Randhawa"
+      ],
+      "answer": 0,
+      "section": "Literature"
+    }
   ]
 }
