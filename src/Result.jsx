@@ -1,10 +1,16 @@
 export default function Result({ exam, answers, onRetake }) {
-  // ABSOLUTE SAFETY GUARD
-  if (!exam || !exam.questions || !Array.isArray(exam.questions)) {
+  // HARD SAFETY GUARD (DO NOT REMOVE)
+  if (!exam || !Array.isArray(exam.questions)) {
     return (
-      <div style={{ padding: 24 }}>
-        <h2>Result unavailable</h2>
-        <button onClick={onRetake}>Back</button>
+      <div
+        style={{
+          minHeight: "100vh",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center"
+        }}
+      >
+        Loading result...
       </div>
     );
   }
@@ -14,22 +20,24 @@ export default function Result({ exam, answers, onRetake }) {
   let attempted = 0;
   let correct = 0;
 
-  for (const q of exam.questions) {
+  exam.questions.forEach(q => {
     if (answers && answers[q.id] !== undefined) {
       attempted++;
       if (answers[q.id] === q.answer) {
         correct++;
       }
     }
-  }
+  });
 
   const wrong = attempted - correct;
+  const unattempted = total - attempted;
+  const scorePercent = Math.round((correct / total) * 100);
 
   return (
     <div
       style={{
         minHeight: "100vh",
-        background: "#f8fafc",
+        background: "#f1f5f9",
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
@@ -38,42 +46,116 @@ export default function Result({ exam, answers, onRetake }) {
     >
       <div
         style={{
-          background: "#ffffff",
-          padding: 32,
-          borderRadius: 12,
           width: "100%",
-          maxWidth: 420,
-          boxShadow: "0 10px 30px rgba(0,0,0,0.15)",
-          textAlign: "center"
+          maxWidth: 520,
+          background: "#ffffff",
+          borderRadius: 16,
+          padding: "36px 40px",
+          boxShadow: "0 20px 50px rgba(0,0,0,0.15)"
         }}
       >
-        <h1>Exam Result</h1>
+        {/* HEADER */}
+        <h1 style={{ marginTop: 0, color: "#1e3a8a" }}>
+          Exam Result
+        </h1>
+        <p style={{ color: "#475569", marginTop: 4 }}>
+          StatePrep CBT – Himachal Pradesh
+        </p>
 
-        <p>Total Questions: <b>{total}</b></p>
-        <p>Attempted: <b>{attempted}</b></p>
-        <p>Correct: <b>{correct}</b></p>
-        <p>Wrong: <b>{wrong}</b></p>
+        <hr style={{ margin: "24px 0" }} />
 
-        <h2 style={{ marginTop: 16 }}>
-          Score: {correct} / {total}
-        </h2>
-
-        <button
-          onClick={onRetake}
+        {/* SCORE */}
+        <div
           style={{
-            marginTop: 24,
-            padding: "12px 24px",
-            borderRadius: 8,
-            border: "none",
-            background: "#1d4ed8",
-            color: "#ffffff",
-            fontSize: 16,
-            fontWeight: 600,
-            cursor: "pointer"
+            textAlign: "center",
+            marginBottom: 24
           }}
         >
-          Retake Exam
-        </button>
+          <div
+            style={{
+              fontSize: 48,
+              fontWeight: 700,
+              color: "#1d4ed8"
+            }}
+          >
+            {correct} / {total}
+          </div>
+          <div style={{ color: "#475569", marginTop: 4 }}>
+            Score ({scorePercent}%)
+          </div>
+        </div>
+
+        {/* STATS */}
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "1fr 1fr",
+            gap: 16
+          }}
+        >
+          <Stat label="Attempted" value={attempted} />
+          <Stat label="Correct" value={correct} />
+          <Stat label="Wrong" value={wrong} />
+          <Stat label="Unattempted" value={unattempted} />
+        </div>
+
+        {/* ACTIONS */}
+        <div
+          style={{
+            marginTop: 32,
+            display: "flex",
+            justifyContent: "flex-end"
+          }}
+        >
+          <button
+            onClick={onRetake}
+            style={{
+              background: "#1d4ed8",
+              color: "#ffffff",
+              padding: "12px 28px",
+              fontSize: 16,
+              borderRadius: 8,
+              border: "none",
+              cursor: "pointer",
+              fontWeight: 600
+            }}
+          >
+            Retake Exam
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* SMALL STAT CARD COMPONENT */
+function Stat({ label, value }) {
+  return (
+    <div
+      style={{
+        background: "#f8fafc",
+        borderRadius: 12,
+        padding: 16,
+        textAlign: "center"
+      }}
+    >
+      <div
+        style={{
+          fontSize: 20,
+          fontWeight: 700,
+          color: "#0f172a"
+        }}
+      >
+        {value}
+      </div>
+      <div
+        style={{
+          fontSize: 14,
+          color: "#64748b",
+          marginTop: 4
+        }}
+      >
+        {label}
       </div>
     </div>
   );
