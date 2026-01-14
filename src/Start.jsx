@@ -26,7 +26,7 @@ export default function Start({ onStart }) {
         </h1>
 
         <p style={{ color: "#475569", marginTop: 8 }}>
-          HP GK Computer Based Test (Mock)
+          HP GK Computer Based Test (Mock-1)
         </p>
 
         <hr style={{ margin: "24px 0" }} />

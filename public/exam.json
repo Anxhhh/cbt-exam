@@ -5,150 +5,864 @@
   "negativeMarking": 0,
   "questions": [
     {
-      "id": 1,
-      "section": "HP GK",
-      "question": "Himachal Pradesh attained full statehood in which year?",
-      "options": ["1948", "1966", "1971", "1987"],
-      "correct": 2
+      "id": "Q001",
+      "question": "Himachal Pradesh was formed as a full-fledged state in which year?",
+      "options": ["1966", "1970", "1971", "1972"],
+      "answer": 2,
+      "section": "History"
     },
     {
-      "id": 2,
-      "section": "HP GK",
-      "question": "Which district of Himachal Pradesh has the lowest population density (Census 2011)?",
-      "options": ["Kinnaur", "Lahaul & Spiti", "Chamba", "Kullu"],
-      "correct": 1
+      "id": "Q002",
+      "question": "Which district of Himachal Pradesh has the highest literacy rate?",
+      "options": ["Hamirpur", "Kangra", "Shimla", "Una"],
+      "answer": 0,
+      "section": "Demography"
     },
     {
-      "id": 3,
-      "section": "HP GK",
-      "question": "Which river is the longest flowing through Himachal Pradesh?",
-      "options": ["Beas", "Ravi", "Chenab", "Sutlej"],
-      "correct": 3
+      "id": "Q003",
+      "question": "Which river is known as the lifeline of Himachal Pradesh?",
+      "options": ["Ravi", "Beas", "Sutlej", "Chenab"],
+      "answer": 1,
+      "section": "Geography"
     },
     {
-      "id": 4,
-      "section": "HP History",
-      "question": "Who was the founder of the princely state of Kangra?",
-      "options": ["Sansar Chand", "Susharma Chandra", "Jai Chand", "Padam Chand"],
-      "correct": 1
+      "id": "Q004",
+      "question": "The Great Himalayan National Park is located in which district?",
+      "options": ["Chamba", "Kullu", "Lahaul-Spiti", "Kinnaur"],
+      "answer": 1,
+      "section": "Environment"
     },
     {
-      "id": 5,
-      "section": "HP History",
-      "question": "Which ruler is associated with the construction of Kangra Fort?",
-      "options": ["Harsha", "Susharma Chandra", "Sansar Chand", "Akbar"],
-      "correct": 1
-    },
-    {
-      "id": 6,
-      "section": "HP Culture",
-      "question": "The Minjar Fair is associated with which district?",
-      "options": ["Kangra", "Chamba", "Mandi", "Hamirpur"],
-      "correct": 1
-    },
-    {
-      "id": 7,
-      "section": "HP Culture",
-      "question": "Which dance form of Himachal Pradesh is recognized by UNESCO?",
-      "options": ["Chham", "Nati", "Kayang", "Dandaras"],
-      "correct": 1
-    },
-    {
-      "id": 8,
-      "section": "HP Geography",
+      "id": "Q005",
       "question": "Which pass connects Kullu valley with Lahaul valley?",
-      "options": ["Kunzum Pass", "Rohtang Pass", "Shipki La", "Baralacha La"],
-      "correct": 1
+      "options": ["Rohtang Pass", "Kunzum Pass", "Baralacha La", "Shipki La"],
+      "answer": 0,
+      "section": "Geography"
     },
-    {
-      "id": 9,
-      "section": "HP Geography",
-      "question": "Which national park lies in the cold desert region of Himachal Pradesh?",
-      "options": [
-        "Great Himalayan National Park",
-        "Pin Valley National Park",
-        "Kalatop Sanctuary",
-        "Pong Dam Sanctuary"
-      ],
-      "correct": 1
-    },
-    {
-      "id": 10,
-      "section": "HP Polity",
-      "question": "Which article of the Constitution provides special provisions for Himachal Pradesh?",
-      "options": ["Article 370", "Article 371", "Article 371A", "Article 371C"],
-      "correct": 1
-    },
-{
-  "id": 11,
-  "section": "HP GK",
-  "question": "Which is the highest peak of Himachal Pradesh?",
-  "options": ["Reo Purgyil", "Hanuman Tibba", "Shilla Peak", "Leo Pargial"],
-  "correct": 0
-},
-{
-  "id": 12,
-  "section": "HP GK",
-  "question": "Which district has the highest literacy rate in Himachal Pradesh (Census 2011)?",
-  "options": ["Hamirpur", "Una", "Kangra", "Bilaspur"],
-  "correct": 0
-},
-{
-  "id": 13,
-  "section": "HP History",
-  "question": "Who was the last ruler of the princely state of Mandi?",
-  "options": ["Joginder Sen", "Suraj Sen", "Isvari Sen", "Bhupendra Sen"],
-  "correct": 0
-},
-{
-  "id": 14,
-  "section": "HP History",
-  "question": "Which ruler of Kangra fought against the Mughals during Akbar’s reign?",
-  "options": ["Sansar Chand", "Susharma Chandra", "Jai Chand", "Padam Chand"],
-  "correct": 0
-},
-{
-  "id": 15,
-  "section": "HP Culture",
-  "question": "The ‘Lavi Fair’ is held in which district?",
-  "options": ["Kullu", "Shimla", "Kinnaur", "Chamba"],
-  "correct": 2
-},
-{
-  "id": 16,
-  "section": "HP Culture",
-  "question": "Which language is given the status of second official language in Himachal Pradesh?",
-  "options": ["Punjabi", "Sanskrit", "English", "Pahari"],
-  "correct": 1
-},
-{
-  "id": 17,
-  "section": "HP Geography",
-  "question": "Which river flows through the Pangi Valley?",
-  "options": ["Chenab", "Ravi", "Beas", "Sutlej"],
-  "correct": 0
-},
-{
-  "id": 18,
-  "section": "HP Geography",
-  "question": "Which pass connects Spiti Valley with Lahaul Valley?",
-  "options": ["Rohtang", "Kunzum", "Shipki La", "Baralacha La"],
-  "correct": 1
-},
-{
-  "id": 19,
-  "section": "HP Polity",
-  "question": "How many members are there in the Himachal Pradesh Legislative Assembly?",
-  "options": ["60", "65", "68", "70"],
-  "correct": 2
-},
-{
-  "id": 20,
-  "section": "HP Polity",
-  "question": "Who appoints the Advocate General of Himachal Pradesh?",
-  "options": ["Chief Minister", "Governor", "High Court", "President"],
-  "correct": 1
-}
 
+    {
+      "id": "Q006",
+      "question": "Which soil type is predominantly found in Himachal Pradesh?",
+      "options": ["Alluvial soil", "Red soil", "Mountain soil", "Laterite soil"],
+      "answer": 2,
+      "section": "Geography"
+    },
+    {
+      "id": "Q007",
+      "question": "Who was the founder of Bushahr state?",
+      "options": ["Raja Kehari Singh", "Raja Pradyuman", "Raja Ugrasen", "Raja Sansar Chand"],
+      "answer": 2,
+      "section": "History"
+    },
+    {
+      "id": "Q008",
+      "question": "Which district of Himachal Pradesh shares border with both Punjab and Haryana?",
+      "options": ["Una", "Solan", "Bilaspur", "Sirmaur"],
+      "answer": 1,
+      "section": "Geography"
+    },
+    {
+      "id": "Q009",
+      "question": "Which language is granted second official language status in Himachal Pradesh?",
+      "options": ["Punjabi", "Sanskrit", "Pahari", "Urdu"],
+      "answer": 1,
+      "section": "Polity"
+    },
+    {
+      "id": "Q010",
+      "question": "The Lavi Fair is associated with which district?",
+      "options": ["Kullu", "Shimla", "Kinnaur", "Chamba"],
+      "answer": 2,
+      "section": "Culture"
+    },
+
+    {
+      "id": "Q011",
+      "question": "Which wildlife sanctuary is famous for Snow Leopard conservation?",
+      "options": ["Kalatop Sanctuary", "Pin Valley National Park", "Renuka Sanctuary", "Pong Dam Sanctuary"],
+      "answer": 1,
+      "section": "Environment"
+    },
+    {
+      "id": "Q012",
+      "question": "Which district has the lowest population density in Himachal Pradesh?",
+      "options": ["Kinnaur", "Lahaul-Spiti", "Chamba", "Kullu"],
+      "answer": 1,
+      "section": "Demography"
+    },
+    {
+      "id": "Q013",
+      "question": "Who is known as the 'Iron Man of Himachal Pradesh'?",
+      "options": ["Dr. Y.S. Parmar", "Pt. Padam Dev", "Shanta Kumar", "Virbhadra Singh"],
+      "answer": 0,
+      "section": "History"
+    },
+    {
+      "id": "Q014",
+      "question": "Which hydropower project is the largest in Himachal Pradesh?",
+      "options": ["Bhakra Nangal", "Nathpa Jhakri", "Chamera", "Kol Dam"],
+      "answer": 1,
+      "section": "Economy"
+    },
+    {
+      "id": "Q015",
+      "question": "Which dance form is associated with Kinnaur district?",
+      "options": ["Nati", "Chham", "Rakshasa", "Losar Shona Chuksam"],
+      "answer": 3,
+      "section": "Culture"
+    },
+
+    {
+      "id": "Q016",
+      "question": "Which place is known as the 'Fruit Bowl of Himachal Pradesh'?",
+      "options": ["Kullu", "Solan", "Shimla", "Una"],
+      "answer": 2,
+      "section": "Economy"
+    },
+    {
+      "id": "Q017",
+      "question": "Which dam is built on the Sutlej river?",
+      "options": ["Pong Dam", "Bhakra Dam", "Chamera Dam", "Kol Dam"],
+      "answer": 1,
+      "section": "Geography"
+    },
+    {
+      "id": "Q018",
+      "question": "Which district has the highest forest cover percentage?",
+      "options": ["Chamba", "Kullu", "Shimla", "Sirmaur"],
+      "answer": 0,
+      "section": "Environment"
+    },
+    {
+      "id": "Q019",
+      "question": "The capital of Himachal Pradesh during winter is:",
+      "options": ["Shimla", "Solan", "Dharamshala", "Una"],
+      "answer": 2,
+      "section": "Polity"
+    },
+    {
+      "id": "Q020",
+      "question": "Which fair marks the beginning of Kullu Dussehra?",
+      "options": ["Phagli", "Lavi", "Hadimba Fair", "Dhalpur Fair"],
+      "answer": 3,
+      "section": "Culture"
+    },
+
+    {
+      "id": "Q021",
+      "question": "Which district is known for slate production?",
+      "options": ["Solan", "Bilaspur", "Kangra", "Una"],
+      "answer": 1,
+      "section": "Economy"
+    },
+    {
+      "id": "Q022",
+      "question": "Which wildlife sanctuary is located in Sirmaur district?",
+      "options": ["Renuka Sanctuary", "Kalatop Sanctuary", "Daranghati Sanctuary", "Gobind Sagar Sanctuary"],
+      "answer": 0,
+      "section": "Environment"
+    },
+    {
+      "id": "Q023",
+      "question": "Which district was carved out of Kangra district in 1972?",
+      "options": ["Una", "Hamirpur", "Bilaspur", "Solan"],
+      "answer": 1,
+      "section": "History"
+    },
+    {
+      "id": "Q024",
+      "question": "Which peak is the highest in Himachal Pradesh?",
+      "options": ["Hanuman Tibba", "Reo Purgyil", "Shilla Peak", "Indrasan"],
+      "answer": 1,
+      "section": "Geography"
+    },
+    {
+      "id": "Q025",
+      "question": "Which crop is known as the 'Golden Crop' of Himachal Pradesh?",
+      "options": ["Maize", "Wheat", "Apple", "Barley"],
+      "answer": 2,
+      "section": "Economy"
+    },
+{
+  "id": "Q026",
+  "question": "Which district of Himachal Pradesh is known as the 'Land of Temples'?",
+  "options": ["Kangra", "Chamba", "Kullu", "Hamirpur"],
+  "answer": 0,
+  "section": "Culture"
+},
+{
+  "id": "Q027",
+  "question": "Which lake is the largest natural lake of Himachal Pradesh?",
+  "options": ["Renuka Lake", "Rewalsar Lake", "Chandra Tal", "Khajjiar Lake"],
+  "answer": 0,
+  "section": "Geography"
+},
+{
+  "id": "Q028",
+  "question": "Which glacier is the source of the Ravi River?",
+  "options": ["Bara Shigri", "Manimahesh Glacier", "Chandra Glacier", "Bhaga Glacier"],
+  "answer": 1,
+  "section": "Geography"
+},
+{
+  "id": "Q029",
+  "question": "Which district of Himachal Pradesh produces the maximum apple crop?",
+  "options": ["Kullu", "Shimla", "Kinnaur", "Mandi"],
+  "answer": 1,
+  "section": "Economy"
+},
+{
+  "id": "Q030",
+  "question": "Which folk dance is performed during the Minjar Fair?",
+  "options": ["Nati", "Chham", "Dandaras", "Jhamakda"],
+  "answer": 0,
+  "section": "Culture"
+},
+
+{
+  "id": "Q031",
+  "question": "Which wildlife sanctuary is located in Chamba district?",
+  "options": ["Kalatop Khajjiar Sanctuary", "Renuka Sanctuary", "Churdhar Sanctuary", "Pong Dam Sanctuary"],
+  "answer": 0,
+  "section": "Environment"
+},
+{
+  "id": "Q032",
+  "question": "Which district has the highest sex ratio in Himachal Pradesh (Census 2011)?",
+  "options": ["Kangra", "Hamirpur", "Bilaspur", "Lahaul-Spiti"],
+  "answer": 1,
+  "section": "Demography"
+},
+{
+  "id": "Q033",
+  "question": "Which national highway connects Shimla with Kinnaur?",
+  "options": ["NH-5", "NH-205", "NH-154", "NH-503"],
+  "answer": 0,
+  "section": "Geography"
+},
+{
+  "id": "Q034",
+  "question": "Which festival is celebrated to mark the harvest season in Lahaul-Spiti?",
+  "options": ["Phagli", "Losar", "Halda", "Minjar"],
+  "answer": 2,
+  "section": "Culture"
+},
+{
+  "id": "Q035",
+  "question": "Which dam is constructed on the Beas River?",
+  "options": ["Bhakra Dam", "Pong Dam", "Kol Dam", "Chamera Dam"],
+  "answer": 1,
+  "section": "Geography"
+},
+
+{
+  "id": "Q036",
+  "question": "Which hill station is known as the 'Queen of Hill Stations' in Himachal Pradesh?",
+  "options": ["Dalhousie", "Shimla", "Kasauli", "Chail"],
+  "answer": 1,
+  "section": "Tourism"
+},
+{
+  "id": "Q037",
+  "question": "Which sanctuary is famous for migratory birds in Himachal Pradesh?",
+  "options": ["Renuka Sanctuary", "Pong Dam Sanctuary", "Daranghati Sanctuary", "Chail Sanctuary"],
+  "answer": 1,
+  "section": "Environment"
+},
+{
+  "id": "Q038",
+  "question": "Which district is known for the Shoolini Fair?",
+  "options": ["Solan", "Bilaspur", "Una", "Sirmaur"],
+  "answer": 0,
+  "section": "Culture"
+},
+{
+  "id": "Q039",
+  "question": "Which peak is located in the Dhauladhar range?",
+  "options": ["Reo Purgyil", "Hanuman Tibba", "Shilla Peak", "Indrasan"],
+  "answer": 1,
+  "section": "Geography"
+},
+{
+  "id": "Q040",
+  "question": "Which district was the last princely state to merge with Himachal Pradesh?",
+  "options": ["Sirmaur", "Bushahr", "Bilaspur", "Chamba"],
+  "answer": 2,
+  "section": "History"
+},
+
+{
+  "id": "Q041",
+  "question": "Which crop is predominantly grown in the Lahaul-Spiti region?",
+  "options": ["Wheat", "Barley", "Rice", "Maize"],
+  "answer": 1,
+  "section": "Agriculture"
+},
+{
+  "id": "Q042",
+  "question": "Which district has the maximum number of hydropower projects?",
+  "options": ["Kinnaur", "Kullu", "Chamba", "Mandi"],
+  "answer": 0,
+  "section": "Economy"
+},
+{
+  "id": "Q043",
+  "question": "Which place is known for the Maa Chintpurni Temple?",
+  "options": ["Una", "Kangra", "Hamirpur", "Bilaspur"],
+  "answer": 0,
+  "section": "Culture"
+},
+{
+  "id": "Q044",
+  "question": "Which river originates from the Bara Shigri Glacier?",
+  "options": ["Ravi", "Beas", "Chenab", "Sutlej"],
+  "answer": 2,
+  "section": "Geography"
+},
+{
+  "id": "Q045",
+  "question": "Which district has the largest geographical area in Himachal Pradesh?",
+  "options": ["Chamba", "Kinnaur", "Lahaul-Spiti", "Kangra"],
+  "answer": 2,
+  "section": "Geography"
+},
+
+{
+  "id": "Q046",
+  "question": "Which folk song form is popular in Kangra district?",
+  "options": ["Ainchaliyan", "Jhanjoti", "Sukrat", "Bari"],
+  "answer": 0,
+  "section": "Culture"
+},
+{
+  "id": "Q047",
+  "question": "Which wildlife sanctuary is located in Shimla district?",
+  "options": ["Chail Sanctuary", "Daranghati Sanctuary", "Renuka Sanctuary", "Kalatop Sanctuary"],
+  "answer": 1,
+  "section": "Environment"
+},
+{
+  "id": "Q048",
+  "question": "Which town is known as the 'Mushroom City of India'?",
+  "options": ["Solan", "Una", "Paonta Sahib", "Nahan"],
+  "answer": 0,
+  "section": "Economy"
+},
+{
+  "id": "Q049",
+  "question": "Which pass connects Lahaul valley with Spiti valley?",
+  "options": ["Rohtang Pass", "Kunzum Pass", "Baralacha La", "Shipki La"],
+  "answer": 1,
+  "section": "Geography"
+},
+{
+  "id": "Q050",
+  "question": "Which river flows through the Pangi Valley?",
+  "options": ["Ravi", "Chenab", "Beas", "Sutlej"],
+  "answer": 1,
+  "section": "Geography"
+},
+
+{
+  "id": "Q051",
+  "question": "Which district has the highest decadal population growth rate?",
+  "options": ["Solan", "Una", "Hamirpur", "Bilaspur"],
+  "answer": 1,
+  "section": "Demography"
+},
+{
+  "id": "Q052",
+  "question": "Which wildlife sanctuary is famous for Cheer Pheasant?",
+  "options": ["Chail Sanctuary", "Daranghati Sanctuary", "Kalatop Sanctuary", "Pong Dam Sanctuary"],
+  "answer": 0,
+  "section": "Environment"
+},
+{
+  "id": "Q053",
+  "question": "Which district of Himachal Pradesh shares an international border with China?",
+  "options": ["Chamba", "Kinnaur", "Lahaul-Spiti", "Both B and C"],
+  "answer": 3,
+  "section": "Geography"
+},
+{
+  "id": "Q054",
+  "question": "Which river valley is associated with the Bhakra Nangal Project?",
+  "options": ["Beas Valley", "Sutlej Valley", "Ravi Valley", "Chenab Valley"],
+  "answer": 1,
+  "section": "Geography"
+},
+{
+  "id": "Q055",
+  "question": "Which district is known for the Renuka Ji Fair?",
+  "options": ["Solan", "Sirmaur", "Una", "Bilaspur"],
+  "answer": 1,
+  "section": "Culture"
+},
+
+{
+  "id": "Q056",
+  "question": "Which place in Himachal Pradesh is known for the Tibetan Parliament-in-Exile?",
+  "options": ["McLeod Ganj", "Manali", "Keylong", "Reckong Peo"],
+  "answer": 0,
+  "section": "Polity"
+},
+{
+  "id": "Q057",
+  "question": "Which district has the maximum number of tribal population?",
+  "options": ["Chamba", "Kinnaur", "Lahaul-Spiti", "Kullu"],
+  "answer": 2,
+  "section": "Demography"
+},
+{
+  "id": "Q058",
+  "question": "Which national park of Himachal Pradesh is a UNESCO World Heritage Site?",
+  "options": ["Pin Valley National Park", "Inderkilla National Park", "Great Himalayan National Park", "Simbolbara National Park"],
+  "answer": 2,
+  "section": "Environment"
+},
+{
+  "id": "Q059",
+  "question": "Which place is known as the 'Gateway to Spiti Valley'?",
+  "options": ["Keylong", "Kaza", "Sumdo", "Nako"],
+  "answer": 0,
+  "section": "Geography"
+},
+{
+  "id": "Q060",
+  "question": "Which district of Himachal Pradesh is famous for the Pabbar Valley?",
+  "options": ["Shimla", "Kinnaur", "Chamba", "Kullu"],
+  "answer": 0,
+  "section": "Geography"
+},
+{
+  "id": "Q061",
+  "question": "Which district of Himachal Pradesh is known for the Chamba Rumal?",
+  "options": ["Kullu", "Chamba", "Kangra", "Mandi"],
+  "answer": 1,
+  "section": "Culture"
+},
+{
+  "id": "Q062",
+  "question": "Which river forms the boundary between Himachal Pradesh and Jammu & Kashmir (UT)?",
+  "options": ["Ravi", "Chenab", "Ujh", "Beas"],
+  "answer": 1,
+  "section": "Geography"
+},
+{
+  "id": "Q063",
+  "question": "Which place in Himachal Pradesh is famous for the Hidimba Devi Temple?",
+  "options": ["Manali", "Kullu", "Mandi", "Chamba"],
+  "answer": 0,
+  "section": "Culture"
+},
+{
+  "id": "Q064",
+  "question": "Which district has the highest urban population in Himachal Pradesh?",
+  "options": ["Shimla", "Solan", "Kangra", "Una"],
+  "answer": 0,
+  "section": "Demography"
+},
+{
+  "id": "Q065",
+  "question": "Which wildlife sanctuary is located in Bilaspur district?",
+  "options": ["Gobind Sagar Sanctuary", "Renuka Sanctuary", "Pong Dam Sanctuary", "Chail Sanctuary"],
+  "answer": 0,
+  "section": "Environment"
+},
+
+{
+  "id": "Q066",
+  "question": "Which district of Himachal Pradesh is famous for the Naina Devi Temple?",
+  "options": ["Bilaspur", "Una", "Hamirpur", "Kangra"],
+  "answer": 0,
+  "section": "Culture"
+},
+{
+  "id": "Q067",
+  "question": "Which river is formed by the confluence of the Chandra and Bhaga rivers?",
+  "options": ["Ravi", "Chenab", "Beas", "Sutlej"],
+  "answer": 1,
+  "section": "Geography"
+},
+{
+  "id": "Q068",
+  "question": "Which district is known as the 'Power House of Himachal Pradesh'?",
+  "options": ["Kinnaur", "Chamba", "Mandi", "Kullu"],
+  "answer": 0,
+  "section": "Economy"
+},
+{
+  "id": "Q069",
+  "question": "Which pass connects Kinnaur with Tibet region?",
+  "options": ["Rohtang Pass", "Kunzum Pass", "Shipki La", "Baralacha La"],
+  "answer": 2,
+  "section": "Geography"
+},
+{
+  "id": "Q070",
+  "question": "Which district is known for the famous Deotsidh Temple?",
+  "options": ["Hamirpur", "Bilaspur", "Una", "Kangra"],
+  "answer": 0,
+  "section": "Culture"
+},
+
+{
+  "id": "Q071",
+  "question": "Which wildlife sanctuary is located in Kullu district?",
+  "options": ["Great Himalayan National Park", "Kalatop Sanctuary", "Chail Sanctuary", "Renuka Sanctuary"],
+  "answer": 0,
+  "section": "Environment"
+},
+{
+  "id": "Q072",
+  "question": "Which district has the maximum forest area in Himachal Pradesh?",
+  "options": ["Chamba", "Kullu", "Shimla", "Sirmaur"],
+  "answer": 0,
+  "section": "Environment"
+},
+{
+  "id": "Q073",
+  "question": "Which town of Himachal Pradesh is known as the 'Apple Bowl of India'?",
+  "options": ["Shimla", "Kotgarh", "Kinnaur", "Kullu"],
+  "answer": 1,
+  "section": "Economy"
+},
+{
+  "id": "Q074",
+  "question": "Which fair of Himachal Pradesh is associated with Lord Raghunath?",
+  "options": ["Minjar Fair", "Lavi Fair", "Kullu Dussehra", "Phagli Fair"],
+  "answer": 2,
+  "section": "Culture"
+},
+{
+  "id": "Q075",
+  "question": "Which river valley is associated with the Nathpa Jhakri Hydroelectric Project?",
+  "options": ["Beas Valley", "Sutlej Valley", "Ravi Valley", "Chenab Valley"],
+  "answer": 1,
+  "section": "Geography"
+},
+
+{
+  "id": "Q076",
+  "question": "Which district of Himachal Pradesh has the highest number of census towns?",
+  "options": ["Solan", "Shimla", "Kangra", "Una"],
+  "answer": 0,
+  "section": "Demography"
+},
+{
+  "id": "Q077",
+  "question": "Which sanctuary is known for Musk Deer conservation?",
+  "options": ["Daranghati Sanctuary", "Kalatop Sanctuary", "Chail Sanctuary", "Renuka Sanctuary"],
+  "answer": 0,
+  "section": "Environment"
+},
+{
+  "id": "Q078",
+  "question": "Which district is famous for the Tattapani hot water springs?",
+  "options": ["Mandi", "Shimla", "Kullu", "Solan"],
+  "answer": 0,
+  "section": "Geography"
+},
+{
+  "id": "Q079",
+  "question": "Which district is known for the Rewalsar (Tso Pema) Lake?",
+  "options": ["Kullu", "Mandi", "Kangra", "Bilaspur"],
+  "answer": 1,
+  "section": "Culture"
+},
+{
+  "id": "Q080",
+  "question": "Which district has the lowest literacy rate in Himachal Pradesh?",
+  "options": ["Chamba", "Lahaul-Spiti", "Kinnaur", "Sirmaur"],
+  "answer": 1,
+  "section": "Demography"
+},
+
+{
+  "id": "Q081",
+  "question": "Which wildlife sanctuary is located in Solan district?",
+  "options": ["Chail Sanctuary", "Simbolbara Sanctuary", "Kalatop Sanctuary", "Daranghati Sanctuary"],
+  "answer": 1,
+  "section": "Environment"
+},
+{
+  "id": "Q082",
+  "question": "Which district of Himachal Pradesh is known for the Pong Dam Lake?",
+  "options": ["Kangra", "Una", "Bilaspur", "Hamirpur"],
+  "answer": 0,
+  "section": "Geography"
+},
+{
+  "id": "Q083",
+  "question": "Which town is the headquarters of Lahaul-Spiti district?",
+  "options": ["Keylong", "Kaza", "Udaipur", "Tabo"],
+  "answer": 0,
+  "section": "Polity"
+},
+{
+  "id": "Q084",
+  "question": "Which district is known for the International Lavi Fair?",
+  "options": ["Kinnaur", "Shimla", "Chamba", "Kullu"],
+  "answer": 0,
+  "section": "Culture"
+},
+{
+  "id": "Q085",
+  "question": "Which river flows through the Kangra Valley?",
+  "options": ["Ravi", "Beas", "Sutlej", "Chenab"],
+  "answer": 1,
+  "section": "Geography"
+},
+
+{
+  "id": "Q086",
+  "question": "Which district is known for the Churdhar Peak?",
+  "options": ["Sirmaur", "Shimla", "Solan", "Mandi"],
+  "answer": 0,
+  "section": "Geography"
+},
+{
+  "id": "Q087",
+  "question": "Which wildlife sanctuary is located in Sirmaur district?",
+  "options": ["Renuka Sanctuary", "Chail Sanctuary", "Kalatop Sanctuary", "Pong Dam Sanctuary"],
+  "answer": 0,
+  "section": "Environment"
+},
+{
+  "id": "Q088",
+  "question": "Which district of Himachal Pradesh has the highest population?",
+  "options": ["Kangra", "Shimla", "Mandi", "Solan"],
+  "answer": 0,
+  "section": "Demography"
+},
+{
+  "id": "Q089",
+  "question": "Which place in Himachal Pradesh is famous for the Tabo Monastery?",
+  "options": ["Kinnaur", "Lahaul-Spiti", "Kullu", "Chamba"],
+  "answer": 1,
+  "section": "Culture"
+},
+{
+  "id": "Q090",
+  "question": "Which river valley is known for the Chamera Hydroelectric Project?",
+  "options": ["Ravi Valley", "Beas Valley", "Sutlej Valley", "Chenab Valley"],
+  "answer": 0,
+  "section": "Geography"
+},
+{
+  "id": "Q091",
+  "question": "Which district of Himachal Pradesh is known for the International Minjar Fair?",
+  "options": ["Chamba", "Kullu", "Kangra", "Mandi"],
+  "answer": 0,
+  "section": "Culture"
+},
+{
+  "id": "Q092",
+  "question": "Which river originates from the Rohtang Pass region?",
+  "options": ["Ravi", "Beas", "Chenab", "Sutlej"],
+  "answer": 1,
+  "section": "Geography"
+},
+{
+  "id": "Q093",
+  "question": "Which district has the highest female literacy rate in Himachal Pradesh?",
+  "options": ["Hamirpur", "Una", "Solan", "Shimla"],
+  "answer": 0,
+  "section": "Demography"
+},
+{
+  "id": "Q094",
+  "question": "Which wildlife sanctuary is located in Kangra district?",
+  "options": ["Dhauladhar Sanctuary", "Kalatop Sanctuary", "Renuka Sanctuary", "Chail Sanctuary"],
+  "answer": 0,
+  "section": "Environment"
+},
+{
+  "id": "Q095",
+  "question": "Which place is known as the 'City of Lakes' in Himachal Pradesh?",
+  "options": ["Rewalsar", "Nahan", "Mandi", "Bilaspur"],
+  "answer": 2,
+  "section": "Tourism"
+},
+
+{
+  "id": "Q096",
+  "question": "Which dam has created the Gobind Sagar Lake?",
+  "options": ["Bhakra Dam", "Kol Dam", "Pong Dam", "Chamera Dam"],
+  "answer": 0,
+  "section": "Geography"
+},
+{
+  "id": "Q097",
+  "question": "Which district is known for the Paonta Sahib Gurudwara?",
+  "options": ["Solan", "Sirmaur", "Una", "Bilaspur"],
+  "answer": 1,
+  "section": "Culture"
+},
+{
+  "id": "Q098",
+  "question": "Which river flows through the Spiti Valley?",
+  "options": ["Sutlej", "Spiti River", "Beas", "Chenab"],
+  "answer": 1,
+  "section": "Geography"
+},
+{
+  "id": "Q099",
+  "question": "Which district of Himachal Pradesh is known for the Kullu Shawls?",
+  "options": ["Kullu", "Chamba", "Kangra", "Mandi"],
+  "answer": 0,
+  "section": "Culture"
+},
+{
+  "id": "Q100",
+  "question": "Which town is known as the 'Headquarters of Apple Trade' in Himachal Pradesh?",
+  "options": ["Shimla", "Rohru", "Theog", "Kotkhai"],
+  "answer": 3,
+  "section": "Economy"
+},
+
+{
+  "id": "Q101",
+  "question": "Which wildlife sanctuary is located in Kinnaur district?",
+  "options": ["Rupi Bhaba Sanctuary", "Chail Sanctuary", "Daranghati Sanctuary", "Renuka Sanctuary"],
+  "answer": 0,
+  "section": "Environment"
+},
+{
+  "id": "Q102",
+  "question": "Which district of Himachal Pradesh has the lowest population?",
+  "options": ["Lahaul-Spiti", "Kinnaur", "Chamba", "Bilaspur"],
+  "answer": 0,
+  "section": "Demography"
+},
+{
+  "id": "Q103",
+  "question": "Which pass connects Chamba district with Lahaul?",
+  "options": ["Sach Pass", "Rohtang Pass", "Kunzum Pass", "Shipki La"],
+  "answer": 0,
+  "section": "Geography"
+},
+{
+  "id": "Q104",
+  "question": "Which river valley is associated with the Kol Dam Project?",
+  "options": ["Beas Valley", "Sutlej Valley", "Ravi Valley", "Chenab Valley"],
+  "answer": 1,
+  "section": "Geography"
+},
+{
+  "id": "Q105",
+  "question": "Which district is famous for the Shikari Devi Temple?",
+  "options": ["Mandi", "Kullu", "Chamba", "Shimla"],
+  "answer": 0,
+  "section": "Culture"
+},
+
+{
+  "id": "Q106",
+  "question": "Which district of Himachal Pradesh has the maximum number of villages?",
+  "options": ["Kangra", "Mandi", "Shimla", "Chamba"],
+  "answer": 0,
+  "section": "Demography"
+},
+{
+  "id": "Q107",
+  "question": "Which wildlife sanctuary is located in Mandi district?",
+  "options": ["Daranghati Sanctuary", "Chail Sanctuary", "Renuka Sanctuary", "Simbolbara Sanctuary"],
+  "answer": 0,
+  "section": "Environment"
+},
+{
+  "id": "Q108",
+  "question": "Which place is known as the 'Scotland of the East' in Himachal Pradesh?",
+  "options": ["Khajjiar", "Dalhousie", "Chail", "Manali"],
+  "answer": 0,
+  "section": "Tourism"
+},
+{
+  "id": "Q109",
+  "question": "Which district is known for the Bhuri Singh Museum?",
+  "options": ["Chamba", "Kangra", "Mandi", "Shimla"],
+  "answer": 0,
+  "section": "Culture"
+},
+{
+  "id": "Q110",
+  "question": "Which river is also known as the Langchen Khambab in Tibet?",
+  "options": ["Sutlej", "Beas", "Ravi", "Chenab"],
+  "answer": 0,
+  "section": "Geography"
+},
+
+{
+  "id": "Q111",
+  "question": "Which district of Himachal Pradesh is known for the Bara Bhangal region?",
+  "options": ["Kangra", "Chamba", "Kullu", "Mandi"],
+  "answer": 0,
+  "section": "Geography"
+},
+{
+  "id": "Q112",
+  "question": "Which wildlife sanctuary is famous for the Himalayan Brown Bear?",
+  "options": ["Pin Valley National Park", "Great Himalayan National Park", "Chail Sanctuary", "Renuka Sanctuary"],
+  "answer": 1,
+  "section": "Environment"
+},
+{
+  "id": "Q113",
+  "question": "Which district of Himachal Pradesh is known for the Kinnauri Shawls?",
+  "options": ["Kinnaur", "Kullu", "Chamba", "Kangra"],
+  "answer": 0,
+  "section": "Culture"
+},
+{
+  "id": "Q114",
+  "question": "Which river flows through the Chamba Valley?",
+  "options": ["Beas", "Chenab", "Ravi", "Sutlej"],
+  "answer": 2,
+  "section": "Geography"
+},
+{
+  "id": "Q115",
+  "question": "Which district is known for the Haripurdhar peak?",
+  "options": ["Sirmaur", "Shimla", "Solan", "Mandi"],
+  "answer": 0,
+  "section": "Geography"
+},
+
+{
+  "id": "Q116",
+  "question": "Which district of Himachal Pradesh has the highest scheduled tribe population percentage?",
+  "options": ["Lahaul-Spiti", "Kinnaur", "Chamba", "Kullu"],
+  "answer": 0,
+  "section": "Demography"
+},
+{
+  "id": "Q117",
+  "question": "Which national park is located in Lahaul-Spiti district?",
+  "options": ["Pin Valley National Park", "Inderkilla National Park", "Great Himalayan National Park", "Simbolbara National Park"],
+  "answer": 0,
+  "section": "Environment"
+},
+{
+  "id": "Q118",
+  "question": "Which district of Himachal Pradesh is known for the Sujanpur Tira Fort?",
+  "options": ["Hamirpur", "Kangra", "Bilaspur", "Una"],
+  "answer": 0,
+  "section": "History"
+},
+{
+  "id": "Q119",
+  "question": "Which river valley is associated with the Uhl Hydroelectric Project?",
+  "options": ["Beas Valley", "Uhl Valley", "Sutlej Valley", "Ravi Valley"],
+  "answer": 1,
+  "section": "Geography"
+},
+{
+  "id": "Q120",
+  "question": "Which district of Himachal Pradesh is known for the Tattapani hot springs on the Sutlej river?",
+  "options": ["Shimla", "Mandi", "Solan", "Kullu"],
+  "answer": 0,
+  "section": "Geography"
+}
   ]
 }
