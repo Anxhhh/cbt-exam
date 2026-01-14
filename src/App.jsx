@@ -4,67 +4,79 @@ import Exam from "./Exam";
 import Result from "./Result";
 
 export default function App() {
-  const [data, setData] = useState(null);
-  const [stage, setStage] = useState("start"); // start | exam | result
+  const [exam, setExam] = useState(null);
+  const [started, setStarted] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+
   const [answers, setAnswers] = useState({});
   const [marked, setMarked] = useState({});
 
+  /* ================= LOAD EXAM JSON ================= */
   useEffect(() => {
-  let mounted = true;
+    fetch(import.meta.env.BASE_URL + "exam.json")
+      .then(res => {
+        if (!res.ok) {
+          throw new Error("Failed to load exam.json");
+        }
+        return res.json();
+      })
+      .then(data => {
+        setExam(data);
+      })
+      .catch(err => {
+        console.error("EXAM LOAD ERROR:", err);
+        // Fail-safe so app never gets stuck on loading
+        setExam({ questions: [] });
+      });
+  }, []);
 
-  fetch(import.meta.env.BASE_URL + "exam.json")
-    .then(res => {
-      if (!res.ok) {
-        throw new Error("Failed to load exam.json");
-      }
-      return res.json();
-    })
-    .then(data => {
-      if (mounted) setExam(data);
-    })
-    .catch(err => {
-      console.error("EXAM LOAD ERROR:", err);
-      if (mounted) setExam({ questions: [] }); // fail-safe
-    });
-
-  return () => {
-    mounted = false;
-  };
-}, []);
-
-
-
-  if (!data) {
-    return <div className="loading">Loading…</div>;
-  }
-
-  if (stage === "start") {
-    return <Start onStart={() => setStage("exam")} />;
-  }
-
-  if (stage === "exam") {
+  /* ================= LOADING STATE ================= */
+  if (!exam || !exam.questions) {
     return (
-      <Exam
-        data={data}
+      <div
+        style={{
+          height: "100vh",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          fontSize: 18
+        }}
+      >
+        Loading...
+      </div>
+    );
+  }
+
+  /* ================= START SCREEN ================= */
+  if (!started) {
+    return <Start onStart={() => setStarted(true)} />;
+  }
+
+  /* ================= RESULT SCREEN ================= */
+  if (submitted) {
+    return (
+      <Result
+        exam={exam}
         answers={answers}
-        marked={marked}
-        setAnswers={setAnswers}
-        setMarked={setMarked}
-        onSubmit={() => setStage("result")}
+        onRetake={() => {
+          setAnswers({});
+          setMarked({});
+          setSubmitted(false);
+          setStarted(false);
+        }}
       />
     );
   }
 
+  /* ================= EXAM SCREEN ================= */
   return (
-    <Result
-      data={data}
+    <Exam
+      data={exam}
       answers={answers}
-      onRetake={() => {
-        setAnswers({});
-        setMarked({});
-        setStage("start");
-      }}
-      onQuit={() => window.close()}
+      marked={marked}
+      setAnswers={setAnswers}
+      setMarked={setMarked}
+      onSubmit={() => setSubmitted(true)}
     />
   );
 }
