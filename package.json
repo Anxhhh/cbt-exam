@@ -7,11 +7,14 @@
   "main": "main.cjs",
   "scripts": {
     "predeploy": "npm run build",
-    "dev": "vite",
+    "start": "npm run build && npm run electron:start",
+    "dev": "concurrently -k \"vite\" \"npm run electron:dev\"",
     "build": "vite build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview",
-    "electron": "electron ."
+    "electron:dev": "cross-env IS_DEV=true electron-forge start",
+    "electron:start": "electron .",
+    "electron:build": "electron-forge make"
   },
   "dependencies": {
     "csv-parser": "^3.2.0",
