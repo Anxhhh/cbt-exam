@@ -10,11 +10,19 @@ export default function App() {
   const [marked, setMarked] = useState({});
 
   useEffect(() => {
-    fetch("/exam.json")
-      .then(r => r.json())
-      .then(setData)
-      .catch(err => console.error(err));
-  }, []);
+  fetch(import.meta.env.BASE_URL + "exam.json")
+    .then(res => {
+      if (!res.ok) {
+        throw new Error("Failed to load exam.json");
+      }
+      return res.json();
+    })
+    .then(data => setExam(data))
+    .catch(err => {
+      console.error(err);
+    });
+}, []);
+
 
   if (!data) {
     return <div className="loading">Loading…</div>;
